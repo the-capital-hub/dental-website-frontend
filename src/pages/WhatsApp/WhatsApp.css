@@ -52,7 +52,7 @@
 
 .whatsapp-hero {
   min-height: 100vh;
-  padding: 145px 0 45px;
+  padding: 35px 0 25px;
   background: #f6f1ea;
 }
 
@@ -62,7 +62,7 @@
   align-items: center;
   gap: 75px;
 
-  padding: 55px 0 45px;
+  padding: 35px 0 25px;
 }
 
 .whatsapp-hero-content {
@@ -312,7 +312,7 @@
 ===================================================== */
 
 .whatsapp-intro {
-  padding: 135px 0;
+  padding: 35px 0;
 
   color: #f6f1ea;
 
@@ -366,7 +366,7 @@
 ===================================================== */
 
 .whatsapp-options {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #eee7de;
 }
@@ -489,7 +489,7 @@
 ===================================================== */
 
 .whatsapp-process {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #f6f1ea;
 }
@@ -621,7 +621,7 @@
 ===================================================== */
 
 .whatsapp-contact {
-  padding: 90px 0;
+  padding: 30px 0;
 
   background: #eee7de;
 }
@@ -719,7 +719,7 @@
 ===================================================== */
 
 .whatsapp-cta {
-  padding: 120px 0;
+  padding: 30px 0;
 
   color: #f6f1ea;
 
@@ -828,7 +828,7 @@
 
   .whatsapp-hero {
     min-height: auto;
-    padding: 105px 0 30px;
+    padding: 30px 0 30px;
   }
 
   .whatsapp-hero-grid {

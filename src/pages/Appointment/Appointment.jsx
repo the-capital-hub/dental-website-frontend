@@ -10,6 +10,8 @@ import {
 } from "lucide-react";
 
 import "./Appointment.css";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 const API_URL =
   "https://dental-website-backend.onrender.com/api/appointments";
@@ -100,6 +102,9 @@ const Appointment = () => {
   };
 
   return (
+    <>
+    
+    <Navbar/>
     <main className="appointment-page">
 
       {/* ========================================
@@ -563,6 +568,8 @@ const Appointment = () => {
       </section>
 
     </main>
+    <Footer/>
+    </>
   );
 };
 

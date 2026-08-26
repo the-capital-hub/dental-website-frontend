@@ -52,7 +52,7 @@
 
 .doctors-hero {
   min-height: 100vh;
-  padding: 145px 0 45px;
+  padding: 35px 0 25px;
   background: #f6f1ea;
 }
 
@@ -62,7 +62,7 @@
   align-items: center;
   gap: 75px;
 
-  padding: 55px 0 45px;
+  padding: 25px 0 30px;
 }
 
 .doctors-hero-content {
@@ -283,7 +283,7 @@
 ===================================================== */
 
 .doctors-intro {
-  padding: 135px 0;
+  padding: 25px 0;
 
   background: #375844;
 
@@ -334,7 +334,7 @@
 ===================================================== */
 
 .doctors-team {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #eee7de;
 }
@@ -522,7 +522,7 @@
 ===================================================== */
 
 .doctors-approach {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #f6f1ea;
 }
@@ -662,7 +662,7 @@
 ===================================================== */
 
 .doctors-values {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #eee7de;
 }
@@ -767,7 +767,7 @@
 ===================================================== */
 
 .doctors-standard {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #f6f1ea;
 }
@@ -842,7 +842,7 @@
 ===================================================== */
 
 .doctors-cta {
-  padding: 120px 0;
+  padding: 20px 0;
 
   background: #c86836;
 
@@ -952,7 +952,7 @@
 
   .doctors-hero {
     min-height: auto;
-    padding: 105px 0 30px;
+    padding: 35px 0 30px;
   }
 
   .doctors-hero-grid {
@@ -987,7 +987,7 @@
   .doctors-approach,
   .doctors-values,
   .doctors-standard {
-    padding: 90px 0;
+    padding: 30px 0;
   }
 
   .doctors-intro h2,

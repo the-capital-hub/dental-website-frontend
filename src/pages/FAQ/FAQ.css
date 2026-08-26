@@ -57,7 +57,7 @@
 .faq-hero {
   min-height: 100vh;
 
-  padding: 145px 0 45px;
+  padding: 35px 0 28px;
 
   background: #f6f1ea;
 }
@@ -71,7 +71,7 @@
 
   gap: 75px;
 
-  padding: 55px 0 45px;
+  padding: 25px 0 30px;
 }
 
 .faq-hero-content {
@@ -324,7 +324,7 @@
 ===================================================== */
 
 .faq-intro {
-  padding: 135px 0;
+  padding: 35px 0;
 
   color: #f6f1ea;
 
@@ -381,7 +381,7 @@
 ===================================================== */
 
 .faq-questions {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #eee7de;
 }
@@ -546,7 +546,7 @@
 }
 
 .faq-answer {
-  padding: 0 50px 25px;
+  padding: 0 20px 25px;
 
   max-width: 650px;
 }
@@ -567,7 +567,7 @@
 ===================================================== */
 
 .faq-ivy {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #f6f1ea;
 }
@@ -811,7 +811,7 @@
 ===================================================== */
 
 .faq-links {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #eee7de;
 }
@@ -926,7 +926,7 @@
 ===================================================== */
 
 .faq-cta {
-  padding: 120px 0;
+  padding: 30px 0;
 
   color: #f6f1ea;
 
@@ -1049,7 +1049,7 @@
   .faq-hero {
     min-height: auto;
 
-    padding: 105px 0 30px;
+    padding: 35px 0 30px;
   }
 
   .faq-hero-grid {

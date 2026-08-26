@@ -66,7 +66,7 @@
 .services-hero {
   min-height: 100vh;
 
-  padding: 145px 0 45px;
+  padding: 35px 0 45px;
 
   background: #f6f1ea;
 }
@@ -80,7 +80,7 @@
 
   gap: 75px;
 
-  padding: 55px 0 45px;
+  padding: 25px 0 30px;
 }
 
 .services-hero-content {
@@ -340,7 +340,7 @@
 ===================================================== */
 
 .services-categories {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #eee7de;
 }
@@ -497,7 +497,7 @@
 ===================================================== */
 
 .services-treatments {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #375844;
 
@@ -671,7 +671,7 @@
 ===================================================== */
 
 .services-planning {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #f6f1ea;
 }
@@ -821,7 +821,7 @@
 ===================================================== */
 
 .services-journey {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #eee7de;
 }
@@ -892,7 +892,7 @@
 ===================================================== */
 
 .services-trust {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #f6f1ea;
 }
@@ -983,7 +983,7 @@
 ===================================================== */
 
 .services-cta {
-  padding: 120px 0;
+  padding: 30px 0;
 
   background: #c86836;
 
@@ -1115,7 +1115,7 @@
   .services-hero {
     min-height: auto;
 
-    padding: 105px 0 30px;
+    padding: 35px 0 30px;
   }
 
   .services-hero-grid {

@@ -52,7 +52,7 @@
 
 .stories-hero {
   min-height: 100vh;
-  padding: 145px 0 45px;
+  padding: 35px 0 30px;
   background: #f6f1ea;
 }
 
@@ -61,7 +61,7 @@
   grid-template-columns: 0.88fr 1.12fr;
   align-items: center;
   gap: 75px;
-  padding: 55px 0 45px;
+  padding: 30px 0 25px;
 }
 
 .stories-hero-content {
@@ -288,7 +288,7 @@
 ===================================================== */
 
 .stories-intro {
-  padding: 135px 0;
+  padding: 35px 0;
 
   color: #f6f1ea;
 
@@ -341,7 +341,7 @@
 ===================================================== */
 
 .stories-featured {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #eee7de;
 }
@@ -518,7 +518,7 @@
 ===================================================== */
 
 .stories-journey {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #f6f1ea;
 }
@@ -661,7 +661,7 @@
 ===================================================== */
 
 .stories-grid-section {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #eee7de;
 }
@@ -829,7 +829,7 @@
 ===================================================== */
 
 .stories-experience {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #f6f1ea;
 }
@@ -970,7 +970,7 @@
 ===================================================== */
 
 .stories-statement {
-  padding: 145px 0;
+  padding: 35px 0;
 
   color: #f6f1ea;
 
@@ -1035,7 +1035,7 @@
 ===================================================== */
 
 .stories-cta {
-  padding: 120px 0;
+  padding: 30px 0;
 
   color: #f6f1ea;
 
@@ -1166,7 +1166,7 @@
   .stories-hero {
     min-height: auto;
 
-    padding: 105px 0 30px;
+    padding: 35px 0 30px;
   }
 
   .stories-hero-grid {
@@ -1176,7 +1176,7 @@
 
     gap: 35px;
 
-    padding: 45px 0 35px;
+    padding: 25px 0 35px;
   }
 
   .stories-hero-content h1 {
