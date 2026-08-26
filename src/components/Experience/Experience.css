@@ -1,0 +1,780 @@
+/* =====================================================
+   OAK & IVORY — EXPERIENCE
+   Same visual language as Services
+===================================================== */
+
+.experience-section {
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 10px 0 10px;
+
+  background: #c86836;
+
+  color: #f8f3ed;
+}
+
+.experience-container {
+  width: min(1280px, 90%);
+
+  margin: 0 auto;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.experience-top {
+  margin-bottom: 46px;
+}
+
+.experience-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 30px;
+
+  color: #f8d1bc;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.18em;
+}
+
+.experience-label span {
+  color: #fff;
+
+  font-size: 11px;
+}
+
+.experience-label i {
+  width: 34px;
+  height: 1px;
+
+  background: #f8f3ed;
+}
+
+.experience-label p {
+  margin: 0;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.experience-heading {
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: 45px;
+}
+
+.experience-heading h2 {
+  margin: 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(48px, 5.3vw, 74px);
+
+  font-weight: 600;
+
+  line-height: 0.9;
+
+  letter-spacing: -0.08em;
+}
+
+.experience-heading h2 em {
+  color: #f8d1bc;
+
+  font-style: italic;
+
+  font-weight: 500;
+}
+
+.experience-heading > p {
+  width: 300px;
+
+  margin: 0 0 2px;
+
+  color: rgba(248, 243, 237, 0.7);
+
+  font-size: 10px;
+
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   FEATURE
+===================================================== */
+
+.experience-feature {
+  display: grid;
+
+  grid-template-columns: 1.25fr 0.75fr;
+
+  overflow: hidden;
+
+  min-height: 470px;
+
+  border-radius: 22px;
+
+  background: #f6f1ea;
+
+  color: #375844;
+}
+
+
+/* =====================================================
+   IMAGE
+===================================================== */
+
+.experience-image {
+  position: relative;
+
+  min-height: 470px;
+
+  overflow: hidden;
+}
+
+.experience-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  transition:
+    transform 0.9s
+    cubic-bezier(.16, 1, .3, 1);
+}
+
+.experience-feature:hover
+.experience-image img {
+  transform: scale(1.04);
+}
+
+
+/* =====================================================
+   IMAGE OVERLAY
+===================================================== */
+
+.experience-image-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent 38%,
+      rgba(20, 45, 30, 0.78)
+    );
+}
+
+
+/* =====================================================
+   IMAGE CAPTION
+===================================================== */
+
+.experience-image-caption {
+  position: absolute;
+
+  left: 30px;
+  bottom: 28px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.experience-image-caption span {
+  color: #efa47c;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.17em;
+}
+
+.experience-image-caption strong {
+  color: #fff;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 30px;
+
+  font-weight: 600;
+
+  line-height: 0.94;
+
+  letter-spacing: -0.06em;
+}
+
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.experience-content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  padding: 36px 34px;
+}
+
+
+/* =====================================================
+   CONTENT TOP
+===================================================== */
+
+.experience-content-top {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+}
+
+.experience-icon {
+  width: 35px;
+  height: 35px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  color: #f6f1ea;
+
+  background: #375844;
+}
+
+.experience-content-top > span {
+  color: #c86836;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.15em;
+}
+
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.experience-content h3 {
+  margin: 18px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 41px;
+
+  font-weight: 600;
+
+  line-height: 0.91;
+
+  letter-spacing: -0.07em;
+}
+
+.experience-content h3 em {
+  color: #c86836;
+
+  font-style: italic;
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.experience-content > p {
+  max-width: 305px;
+
+  margin: 17px 0 0;
+
+  color: #727b74;
+
+  font-size: 9px;
+
+  line-height: 1.72;
+}
+
+
+/* =====================================================
+   CHECKS
+===================================================== */
+
+.experience-checks {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 9px;
+
+  margin-top: 19px;
+}
+
+.experience-checks > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.experience-checks span {
+  width: 21px;
+  height: 21px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  color: #f6f1ea;
+
+  background: #375844;
+}
+
+.experience-checks p {
+  margin: 0;
+
+  color: #56635b;
+
+  font-size: 8px;
+
+  font-weight: 600;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.experience-button {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 24px;
+
+  padding: 6px 6px 6px 15px;
+
+  border-radius: 100px;
+
+  color: #f6f1ea;
+
+  background: #375844;
+
+  font-size: 8px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition:
+    background .3s ease,
+    transform .3s ease;
+}
+
+.experience-button:hover {
+  background: #c86836;
+
+  transform: translateY(-2px);
+}
+
+.experience-button strong {
+  width: 29px;
+  height: 29px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #375844;
+
+  background: #efa47c;
+
+  transition:
+    transform .3s ease;
+}
+
+.experience-button:hover strong {
+  transform: rotate(45deg);
+}
+
+
+/* =====================================================
+   EXPERIENCE POINTS
+===================================================== */
+
+.experience-points {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  margin-top: 42px;
+
+  border-top:
+    1px solid rgba(248, 243, 237, .25);
+
+  border-left:
+    1px solid rgba(248, 243, 237, .25);
+}
+
+.experience-point {
+  display: grid;
+
+  grid-template-columns:
+    34px 1fr 30px;
+
+  align-items: start;
+
+  gap: 14px;
+
+  min-height: 125px;
+
+  padding: 23px 20px;
+
+  border-right:
+    1px solid rgba(248, 243, 237, .25);
+
+  border-bottom:
+    1px solid rgba(248, 243, 237, .25);
+
+  transition:
+    background .3s ease;
+}
+
+.experience-point:hover {
+  background:
+    rgba(255, 255, 255, .07);
+}
+
+.experience-point-number {
+  color: #f8d1bc;
+
+  font-size: 8px;
+
+  font-weight: 800;
+}
+
+.experience-point-content h4 {
+  margin: 0;
+
+  color: #fff;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 19px;
+
+  font-weight: 600;
+
+  line-height: 1;
+
+  letter-spacing: -.05em;
+}
+
+.experience-point-content p {
+  max-width: 300px;
+
+  margin: 9px 0 0;
+
+  color: rgba(248, 243, 237, .62);
+
+  font-size: 8px;
+
+  line-height: 1.6;
+}
+
+.experience-point-arrow {
+  justify-self: end;
+
+  color: #f8d1bc;
+
+  transition:
+    transform .3s ease;
+}
+
+.experience-point:hover
+.experience-point-arrow {
+  transform: rotate(45deg);
+}
+
+
+/* =====================================================
+   BOTTOM STATEMENT
+===================================================== */
+
+.experience-statement {
+  display: flex;
+
+  align-items: flex-start;
+
+  justify-content: space-between;
+
+  margin-top: 48px;
+
+  padding-top: 22px;
+
+  border-top:
+    1px solid rgba(248, 243, 237, .25);
+}
+
+.experience-statement > span {
+  color: #f8d1bc;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: .18em;
+}
+
+.experience-statement p {
+  margin: 0;
+
+  color: #fff;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(34px, 3.8vw, 56px);
+
+  font-weight: 600;
+
+  line-height: .9;
+
+  letter-spacing: -.075em;
+
+  text-align: right;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+  .experience-section {
+    padding: 78px 0 65px;
+  }
+
+  .experience-container {
+    width: calc(100% - 50px);
+  }
+
+  .experience-feature {
+    grid-template-columns: 1.15fr .85fr;
+  }
+
+  .experience-content {
+    padding: 30px 25px;
+  }
+
+  .experience-content h3 {
+    font-size: 35px;
+  }
+
+  .experience-heading > p {
+    width: 270px;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .experience-section {
+    padding: 65px 0 58px;
+  }
+
+  .experience-container {
+    width: calc(100% - 34px);
+  }
+
+  .experience-top {
+    /* margin-bottom: 32px; */
+  }
+
+  .experience-label {
+    margin-bottom: 22px;
+
+    font-size: 7px;
+  }
+
+  .experience-heading {
+    display: block;
+  }
+
+  .experience-heading h2 {
+    font-size: 42px;
+  }
+
+  .experience-heading > p {
+    width: 100%;
+
+    margin-top: 16px;
+
+    font-size: 9px;
+  }
+
+
+  /* FEATURE */
+
+  .experience-feature {
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: auto;
+
+    border-radius: 17px;
+  }
+
+  .experience-image {
+    min-height: 275px;
+
+    height: 275px;
+  }
+
+  .experience-image-caption {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .experience-image-caption strong {
+    font-size: 24px;
+  }
+
+  .experience-content {
+    min-height: auto;
+
+    padding: 25px 21px 27px;
+  }
+
+  .experience-content h3 {
+    font-size: 35px;
+  }
+
+  .experience-content > p {
+    margin-top: 14px;
+
+    font-size: 9px;
+  }
+
+  .experience-checks {
+    margin-top: 17px;
+  }
+
+  .experience-button {
+    margin-top: 21px;
+  }
+
+
+  /* POINTS */
+
+  .experience-points {
+    grid-template-columns: 1fr;
+
+    margin-top: 30px;
+  }
+
+  .experience-point {
+    min-height: 110px;
+
+    padding: 20px 15px;
+  }
+
+  .experience-point-content h4 {
+    font-size: 18px;
+  }
+
+
+  /* STATEMENT */
+
+  .experience-statement {
+    display: block;
+
+    margin-top: 36px;
+  }
+
+  .experience-statement p {
+    margin-top: 17px;
+
+    font-size: 37px;
+
+    text-align: left;
+  }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 400px) {
+
+  .experience-container {
+    width: calc(100% - 28px);
+  }
+
+  .experience-heading h2 {
+    font-size: 37px;
+  }
+
+  .experience-image {
+    min-height: 245px;
+
+    height: 245px;
+  }
+
+  .experience-content {
+    padding: 22px 18px 24px;
+  }
+
+  .experience-content h3 {
+    font-size: 31px;
+  }
+
+  .experience-statement p {
+    font-size: 33px;
+  }
+}

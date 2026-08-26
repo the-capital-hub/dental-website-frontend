@@ -1,0 +1,893 @@
+/* =====================================================
+   OAK & IVORY — PREMIUM HERO
+
+   Theme
+   Cream       #F7F3EA
+   Forest      #1F4D3A
+   Terracotta  #D96B45
+   Black       #171A18
+   Sage        #DDE7DE
+===================================================== */
+
+.dental-hero {
+  position: relative;
+
+  width: 100%;
+  min-height: 780px;
+  height: 92vh;
+
+  overflow: hidden;
+
+  background: #1f4d3a;
+  color: #f7f3ea;
+
+  isolation: isolate;
+}
+
+
+/* =====================================================
+   HERO IMAGE
+===================================================== */
+
+.dental-hero-image {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  overflow: hidden;
+}
+
+.dental-hero-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center 48%;
+
+  transform: scale(1.03);
+
+  animation:
+    dentalHeroImage 1.4s
+    cubic-bezier(0.16, 1, 0.3, 1)
+    forwards;
+}
+
+@keyframes dentalHeroImage {
+
+  from {
+    transform: scale(1.10);
+  }
+
+  to {
+    transform: scale(1.03);
+  }
+
+}
+
+
+/* =====================================================
+   IMAGE OVERLAY
+===================================================== */
+
+.dental-hero-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 2;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(23, 26, 24, 0.90) 0%,
+      rgba(23, 26, 24, 0.76) 28%,
+      rgba(23, 26, 24, 0.32) 62%,
+      rgba(23, 26, 24, 0.18) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(23, 26, 24, 0.72) 0%,
+      rgba(23, 26, 24, 0.08) 58%,
+      rgba(23, 26, 24, 0.32) 100%
+    );
+}
+
+
+/* =====================================================
+   MAIN CONTAINER
+===================================================== */
+
+.dental-hero-container {
+  position: relative;
+
+  z-index: 10;
+
+  width: min(1380px, calc(100% - 80px));
+
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 60px;
+}
+
+
+/* =====================================================
+   HERO CONTENT
+===================================================== */
+
+.dental-hero-content {
+  width: min(650px, 55%);
+
+  padding-top: 60px;
+}
+
+
+/* =====================================================
+   EYEBROW
+===================================================== */
+
+.dental-hero-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+  color: #f0ad8b;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.18em;
+
+  line-height: 1;
+}
+
+.dental-hero-label span {
+  width: 30px;
+  height: 1px;
+
+  flex-shrink: 0;
+
+  background: #d96b45;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.dental-hero-content h1 {
+  margin: 0;
+
+  max-width: 700px;
+
+  color: #f7f3ea;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(52px, 6vw, 88px);
+
+  font-weight: 600;
+
+  line-height: 0.94;
+
+  letter-spacing: -0.075em;
+}
+
+.dental-hero-content h1 em {
+  color: #e59a76;
+
+  font-style: italic;
+
+  font-weight: 500;
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.dental-hero-description {
+  width: min(470px, 100%);
+
+  margin: 27px 0 0;
+
+  color: rgba(247, 243, 234, 0.72);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   ACTIONS
+===================================================== */
+
+.dental-hero-actions {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-top: 30px;
+}
+
+
+/* =====================================================
+   PRIMARY BUTTON
+===================================================== */
+
+.dental-main-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 7px 7px 7px 19px;
+
+  border-radius: 999px;
+
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 12px;
+
+  font-weight: 750;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.16);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.dental-main-button:hover {
+  background: #d96b45;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 14px 35px rgba(217, 107, 69, 0.25);
+}
+
+.dental-main-button-icon {
+  width: 34px;
+  height: 34px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #1f4d3a;
+
+  background: #dde7de;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.dental-main-button:hover
+.dental-main-button-icon {
+  transform: rotate(7deg);
+
+  background: #f7f3ea;
+}
+
+
+/* =====================================================
+   IVY BUTTON
+===================================================== */
+
+.dental-ivy-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  min-height: 48px;
+
+  padding: 0 17px;
+
+  border: 1px solid rgba(247, 243, 234, 0.28);
+
+  border-radius: 999px;
+
+  color: #f7f3ea;
+
+  background: rgba(247, 243, 234, 0.06);
+
+  backdrop-filter: blur(10px);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 12px;
+
+  font-weight: 650;
+
+  text-decoration: none;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.dental-ivy-button:hover {
+  background: rgba(247, 243, 234, 0.12);
+
+  border-color: rgba(247, 243, 234, 0.42);
+
+  transform: translateY(-2px);
+}
+
+.ivy-live {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #9bc9a7;
+
+  box-shadow:
+    0 0 0 5px rgba(155, 201, 167, 0.12);
+}
+
+
+/* =====================================================
+   RIGHT INFORMATION CARD
+===================================================== */
+
+.dental-hero-card {
+  width: 315px;
+
+  flex-shrink: 0;
+
+  padding: 25px;
+
+  border: 1px solid rgba(247, 243, 234, 0.24);
+
+  border-radius: 22px;
+
+  background:
+    rgba(247, 243, 234, 0.12);
+
+  backdrop-filter: blur(18px);
+
+  -webkit-backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.18);
+}
+
+
+/* =====================================================
+   CARD TOP
+===================================================== */
+
+.dental-hero-card-top {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+.dental-hero-card-icon {
+  width: 34px;
+  height: 34px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #1f4d3a;
+
+  background: #dde7de;
+}
+
+.dental-hero-card-top span {
+  color: rgba(247, 243, 234, 0.65);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+}
+
+
+/* =====================================================
+   CARD CONTENT
+===================================================== */
+
+.dental-hero-card strong {
+  display: block;
+
+  color: #f7f3ea;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1.08;
+
+  letter-spacing: -0.045em;
+}
+
+.dental-hero-card p {
+  margin: 17px 0 24px;
+
+  color: rgba(247, 243, 234, 0.62);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+
+  line-height: 1.65;
+}
+
+
+/* =====================================================
+   CARD LINK
+===================================================== */
+
+.dental-hero-card-link {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding-top: 15px;
+
+  border-top: 1px solid rgba(247, 243, 234, 0.15);
+
+  color: #f7f3ea;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.dental-hero-card-link svg {
+  color: #e59a76;
+
+  transition:
+    transform 0.3s ease;
+}
+
+.dental-hero-card-link:hover svg {
+  transform: translate(3px, -3px);
+}
+
+
+/* =====================================================
+   BOTTOM INFORMATION
+===================================================== */
+
+.dental-hero-bottom {
+  position: absolute;
+
+  z-index: 15;
+
+  left: max(40px, calc((100% - 1380px) / 2));
+
+  right: max(40px, calc((100% - 1380px) / 2));
+
+  bottom: 27px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  color: rgba(247, 243, 234, 0.50);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 650;
+
+  letter-spacing: 0.12em;
+
+  text-transform: uppercase;
+}
+
+.hero-bottom-location {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+}
+
+.hero-location-dot {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: #d96b45;
+
+  box-shadow:
+    0 0 0 4px rgba(217, 107, 69, 0.12);
+}
+
+.hero-bottom-scroll {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.scroll-line {
+  width: 45px;
+  height: 1px;
+
+  background:
+    rgba(247, 243, 234, 0.38);
+}
+
+
+/* =====================================================
+   LARGE TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+  .dental-hero-container {
+    width: calc(100% - 60px);
+
+    gap: 35px;
+  }
+
+  .dental-hero-content {
+    width: 58%;
+  }
+
+  .dental-hero-content h1 {
+    font-size: clamp(48px, 6vw, 70px);
+  }
+
+  .dental-hero-card {
+    width: 285px;
+  }
+
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 850px) {
+
+  .dental-hero {
+    min-height: 760px;
+
+    height: 88vh;
+  }
+
+  .dental-hero-container {
+    width: calc(100% - 48px);
+
+    align-items: flex-end;
+
+    padding-bottom: 100px;
+  }
+
+  .dental-hero-content {
+    width: 68%;
+
+    padding-top: 0;
+  }
+
+  .dental-hero-card {
+    width: 250px;
+
+    padding: 20px;
+  }
+
+  .dental-hero-card strong {
+    font-size: 21px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .dental-hero {
+    min-height: 760px;
+
+    height: auto;
+
+    border-radius: 0 0 20px 20px;
+  }
+
+
+  /* IMAGE */
+
+  .dental-hero-image img {
+    object-position: 62% center;
+  }
+
+
+  /* OVERLAY */
+
+  .dental-hero-overlay {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(23, 26, 24, 0.92) 0%,
+        rgba(23, 26, 24, 0.64) 60%,
+        rgba(23, 26, 24, 0.30) 100%
+      ),
+      linear-gradient(
+        0deg,
+        rgba(23, 26, 24, 0.90) 0%,
+        rgba(23, 26, 24, 0.12) 65%
+      );
+  }
+
+
+  /* CONTAINER */
+
+  .dental-hero-container {
+    width: calc(100% - 36px);
+
+    min-height: 760px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    align-items: stretch;
+
+    gap: 24px;
+
+    padding: 0 0 105px;
+  }
+
+
+  /* CONTENT */
+
+  .dental-hero-content {
+    width: 100%;
+  }
+
+
+  /* LABEL */
+
+  .dental-hero-label {
+    margin-bottom: 15px;
+
+    font-size: 8px;
+  }
+
+  .dental-hero-label span {
+    width: 22px;
+  }
+
+
+  /* HEADING */
+
+  .dental-hero-content h1 {
+    max-width: 520px;
+
+    font-size: clamp(42px, 12vw, 58px);
+
+    line-height: 0.95;
+
+    letter-spacing: -0.065em;
+  }
+
+
+  /* DESCRIPTION */
+
+  .dental-hero-description {
+    width: min(390px, 100%);
+
+    margin-top: 19px;
+
+    font-size: 12px;
+
+    line-height: 1.65;
+  }
+
+
+  /* ACTIONS */
+
+  .dental-hero-actions {
+    align-items: stretch;
+
+    flex-wrap: wrap;
+
+    gap: 9px;
+
+    margin-top: 22px;
+  }
+
+  .dental-main-button {
+    min-height: 46px;
+
+    padding-left: 15px;
+
+    font-size: 11px;
+  }
+
+  .dental-main-button-icon {
+    width: 31px;
+    height: 31px;
+  }
+
+  .dental-ivy-button {
+    min-height: 46px;
+
+    font-size: 11px;
+  }
+
+
+  /* CARD */
+
+  .dental-hero-card {
+    width: 100%;
+
+    max-width: 370px;
+
+    padding: 17px;
+
+    border-radius: 17px;
+  }
+
+  .dental-hero-card-top {
+    margin-bottom: 16px;
+  }
+
+  .dental-hero-card-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .dental-hero-card strong {
+    font-size: 19px;
+  }
+
+  .dental-hero-card p {
+    margin: 10px 0 15px;
+
+    font-size: 10px;
+  }
+
+
+  /* BOTTOM */
+
+  .dental-hero-bottom {
+    left: 18px;
+    right: 18px;
+
+    bottom: 20px;
+
+    font-size: 7px;
+  }
+
+  .scroll-line {
+    width: 25px;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 420px) {
+
+  .dental-hero {
+    min-height: 720px;
+  }
+
+  .dental-hero-container {
+    width: calc(100% - 30px);
+
+    min-height: 720px;
+
+    padding-bottom: 92px;
+
+    gap: 18px;
+  }
+
+  .dental-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .dental-hero-description {
+    font-size: 11px;
+  }
+
+  .dental-hero-card {
+    padding: 15px;
+  }
+
+  .dental-hero-card strong {
+    font-size: 17px;
+  }
+
+  .dental-hero-bottom {
+    font-size: 6px;
+  }
+
+}
+
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .dental-hero-image img {
+    animation: none;
+  }
+
+}

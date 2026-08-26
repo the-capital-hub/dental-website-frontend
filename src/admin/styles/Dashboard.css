@@ -1,0 +1,743 @@
+/* =====================================================
+   DASHBOARD
+===================================================== */
+
+.dashboard {
+  width: 100%;
+  min-height: 100%;
+  padding: 28px;
+  box-sizing: border-box;
+}
+
+
+/* =====================================================
+   WELCOME
+===================================================== */
+
+.dashboard-welcome {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.dashboard-eyebrow,
+.dashboard-panel-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+.dashboard-welcome h2 {
+  margin: 0;
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.dashboard-welcome h2 span {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 25px;
+}
+
+.dashboard-welcome p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.65;
+}
+
+.dashboard-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 10px 13px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+
+/* =====================================================
+   STAT CARDS
+===================================================== */
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.dashboard-stat-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 155px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  background: #ffffff;
+  box-sizing: border-box;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.dashboard-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.07);
+}
+
+.dashboard-stat-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.dashboard-stat-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #f3f0ea;
+}
+
+.dashboard-stat-change {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.dashboard-stat-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  opacity: 0.58;
+}
+
+.dashboard-stat-value {
+  display: block;
+  font-size: 31px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.dashboard-stat-note {
+  display: block;
+  margin-top: 9px;
+  font-size: 11px;
+  opacity: 0.52;
+}
+
+
+/* =====================================================
+   IVY STAT CARD
+===================================================== */
+
+.dashboard-stat-card-ivy {
+  background: #f4f1ea;
+}
+
+.dashboard-stat-icon-ivy {
+  background: #ffffff;
+}
+
+.dashboard-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.dashboard-live > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+
+/* =====================================================
+   MAIN GRID
+===================================================== */
+
+.dashboard-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.8fr);
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.dashboard-lower-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+
+/* =====================================================
+   PANEL
+===================================================== */
+
+.dashboard-panel {
+  min-width: 0;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.dashboard-panel + .dashboard-panel {
+  margin-top: 0;
+}
+
+.dashboard-panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.dashboard-panel-header h3 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.dashboard-panel-label {
+  margin-bottom: 5px;
+  font-size: 9px;
+}
+
+.dashboard-panel-total {
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: #f4f2ed;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dashboard-view-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  opacity: 0.62;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
+}
+
+.dashboard-view-link:hover {
+  opacity: 1;
+}
+
+
+/* =====================================================
+   APPOINTMENTS
+===================================================== */
+
+.dashboard-appointments {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-appointment {
+  display: grid;
+  grid-template-columns: 62px minmax(150px, 1fr) minmax(120px, 0.7fr) auto 28px;
+  align-items: center;
+  gap: 12px;
+  min-height: 66px;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.dashboard-appointment:first-child {
+  border-top: 0;
+}
+
+.dashboard-appointment-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.dashboard-patient {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 10px;
+}
+
+.dashboard-patient-avatar {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #eeeae2;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.dashboard-patient > div:last-child {
+  min-width: 0;
+}
+
+.dashboard-patient strong {
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-patient span {
+  display: block;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 10px;
+  opacity: 0.55;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-doctor {
+  overflow: hidden;
+  font-size: 11px;
+  opacity: 0.62;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  min-width: 64px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dashboard-status-pending {
+  background: #f7ead3;
+}
+
+.dashboard-status-confirmed {
+  background: #e5f1e8;
+}
+
+.dashboard-status-completed {
+  background: #e7edf7;
+}
+
+.dashboard-status-cancelled {
+  background: #f4e2e2;
+}
+
+.dashboard-more {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.45;
+}
+
+.dashboard-more:hover {
+  background: #f3f1ed;
+  opacity: 1;
+}
+
+
+/* =====================================================
+   IVY PANEL
+===================================================== */
+
+.dashboard-ivy-panel {
+  background: #f5f2eb;
+}
+
+.dashboard-ivy-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.dashboard-ivy-badge span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.dashboard-ivy-summary {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 25px 0;
+}
+
+.dashboard-ivy-big-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 13px;
+  background: #ffffff;
+}
+
+.dashboard-ivy-summary strong {
+  display: block;
+  font-size: 31px;
+  line-height: 1;
+}
+
+.dashboard-ivy-summary span {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  opacity: 0.58;
+}
+
+.dashboard-ivy-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.dashboard-ivy-metrics > div {
+  padding: 15px 8px;
+  text-align: center;
+}
+
+.dashboard-ivy-metrics > div + div {
+  border-left: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.dashboard-ivy-metrics strong {
+  display: block;
+  font-size: 18px;
+}
+
+.dashboard-ivy-metrics span {
+  display: block;
+  margin-top: 3px;
+  font-size: 9px;
+  opacity: 0.55;
+}
+
+.dashboard-ivy-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 17px;
+  color: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* =====================================================
+   PIPELINE
+===================================================== */
+
+.dashboard-pipeline {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.dashboard-pipeline-row {
+  width: 100%;
+}
+
+.dashboard-pipeline-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  font-size: 11px;
+}
+
+.dashboard-pipeline-label span {
+  opacity: 0.65;
+}
+
+.dashboard-pipeline-label strong {
+  font-size: 11px;
+}
+
+.dashboard-pipeline-bar {
+  width: 100%;
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #efede8;
+}
+
+.dashboard-pipeline-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: currentColor;
+  transition: width 0.5s ease;
+}
+
+
+/* =====================================================
+   RECENT LIST
+===================================================== */
+
+.dashboard-recent-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-recent-item {
+  display: grid;
+  grid-template-columns: 36px minmax(150px, 1fr) minmax(80px, 0.5fr) auto 90px;
+  align-items: center;
+  gap: 12px;
+  min-height: 62px;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.dashboard-recent-item:first-child {
+  border-top: 0;
+}
+
+.dashboard-recent-info {
+  min-width: 0;
+}
+
+.dashboard-recent-info strong {
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-recent-info span {
+  display: block;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 10px;
+  opacity: 0.55;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-recent-source {
+  overflow: hidden;
+  font-size: 10px;
+  opacity: 0.6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-recent-date {
+  font-size: 10px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 1200px) {
+  .dashboard-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dashboard-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-recent-item {
+    grid-template-columns:
+      36px
+      minmax(150px, 1fr)
+      minmax(70px, 0.5fr)
+      auto
+      80px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .dashboard {
+    padding: 20px;
+  }
+
+  .dashboard-lower-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-welcome {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .dashboard-date {
+    align-self: flex-start;
+  }
+
+  .dashboard-appointment {
+    grid-template-columns:
+      58px
+      minmax(130px, 1fr)
+      auto
+      28px;
+  }
+
+  .dashboard-doctor {
+    display: none;
+  }
+
+  .dashboard-appointment .dashboard-status {
+    grid-column: 3;
+  }
+
+  .dashboard-appointment .dashboard-more {
+    grid-column: 4;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .dashboard {
+    padding: 15px;
+  }
+
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-stat-card {
+    min-height: 140px;
+  }
+
+  .dashboard-panel {
+    padding: 16px;
+    border-radius: 13px;
+  }
+
+  .dashboard-panel-header {
+    margin-bottom: 14px;
+  }
+
+  .dashboard-panel-header h3 {
+    font-size: 15px;
+  }
+
+  .dashboard-appointment {
+    grid-template-columns:
+      50px
+      minmax(0, 1fr)
+      28px;
+    gap: 8px;
+    padding: 12px 0;
+  }
+
+  .dashboard-appointment-time {
+    align-self: flex-start;
+    padding-top: 7px;
+  }
+
+  .dashboard-patient {
+    min-width: 0;
+  }
+
+  .dashboard-appointment .dashboard-status {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: -7px;
+  }
+
+  .dashboard-appointment .dashboard-more {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .dashboard-ivy-metrics > div {
+    padding: 12px 4px;
+  }
+
+  .dashboard-recent-item {
+    grid-template-columns:
+      34px
+      minmax(0, 1fr)
+      auto;
+    gap: 9px;
+    padding: 11px 0;
+  }
+
+  .dashboard-recent-source {
+    display: none;
+  }
+
+  .dashboard-recent-item .dashboard-status {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .dashboard-recent-date {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .dashboard-welcome h2 {
+    font-size: 27px;
+  }
+}

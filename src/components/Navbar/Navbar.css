@@ -1,0 +1,647 @@
+/* =====================================================
+   OAK & IVORY — PREMIUM NAVBAR
+   Theme:
+   Forest Green  #1F4D3A
+   Terracotta    #D96B45
+   Warm Cream    #F7F3EA
+   Black         #171A18
+   Sage          #DDE7DE
+===================================================== */
+
+.navbar {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  z-index: 9999;
+
+  width: min(1380px, calc(100% - 48px));
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-50%);
+
+  padding: 0 10px 0 22px;
+
+  border: 1px solid rgba(31, 77, 58, 0.14);
+  border-radius: 999px;
+
+  background: rgba(247, 243, 234, 0.94);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  box-shadow:
+    0 14px 40px rgba(31, 77, 58, 0.08);
+
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+
+  gap: 11px;
+
+  flex-shrink: 0;
+
+  color: #1f4d3a;
+
+  text-decoration: none;
+}
+
+.navbar-logo-mark {
+  width: 38px;
+  height: 38px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid rgba(31, 77, 58, 0.32);
+  border-radius: 50%;
+
+  color: #1f4d3a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  line-height: 1;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.navbar-logo:hover .navbar-logo-mark {
+  color: #f7f3ea;
+  background: #1f4d3a;
+  border-color: #1f4d3a;
+
+  transform: rotate(-7deg);
+}
+
+.navbar-logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  line-height: 1;
+}
+
+.navbar-logo-text strong {
+  color: #171a18;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 14px;
+  font-weight: 750;
+
+  letter-spacing: -0.035em;
+}
+
+.navbar-logo-text small {
+  margin-top: 5px;
+
+  color: #77736c;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 6px;
+  font-weight: 800;
+
+  letter-spacing: 0.30em;
+}
+
+
+/* =====================================================
+   DESKTOP NAVIGATION
+===================================================== */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+.navbar-links a {
+  position: relative;
+
+  color: #595d58;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+  font-weight: 650;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition:
+    color 0.25s ease;
+}
+
+.navbar-links a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -7px;
+
+  width: 0;
+  height: 1px;
+
+  background: #d96b45;
+
+  transition: width 0.25s ease;
+}
+
+.navbar-links a:hover {
+  color: #1f4d3a;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+
+/* =====================================================
+   DASHBOARD
+===================================================== */
+
+.navbar-admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 38px;
+
+  padding: 0 13px;
+
+  margin-right: 8px;
+
+  border: 1px solid rgba(31, 77, 58, 0.16);
+  border-radius: 999px;
+
+  color: #1f4d3a;
+
+  background: transparent;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.navbar-admin:hover {
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+
+  border-color: #1f4d3a;
+}
+
+
+/* =====================================================
+   APPOINTMENT CTA
+===================================================== */
+
+.navbar-cta {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  min-height: 44px;
+
+  padding: 5px 6px 5px 17px;
+
+  border-radius: 999px;
+
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+  font-weight: 750;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.navbar-cta:hover {
+  background: #d96b45;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 24px rgba(217, 107, 69, 0.20);
+}
+
+
+/*
+   IMPORTANT:
+   JSX uses .navbar-cta-arrow
+*/
+
+.navbar-cta-arrow {
+  width: 32px;
+  height: 32px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #1f4d3a;
+
+  background: #dde7de;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.navbar-cta:hover .navbar-cta-arrow {
+  transform: rotate(7deg);
+
+  background: #f7f3ea;
+}
+
+
+/* =====================================================
+   MOBILE MENU BUTTON
+===================================================== */
+
+.navbar-menu-button {
+  display: none;
+
+  width: 40px;
+  height: 40px;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-left: auto;
+
+  border: 1px solid rgba(31, 77, 58, 0.16);
+  border-radius: 50%;
+
+  color: #1f4d3a;
+
+  background: #ffffff;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.navbar-menu-button:hover {
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+
+  transform: rotate(3deg);
+}
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+.mobile-menu {
+  position: fixed;
+
+  top: 100px;
+  left: 50%;
+
+  z-index: 9998;
+
+  width: min(1380px, calc(100% - 48px));
+
+  transform: translateX(-50%);
+
+  padding: 12px;
+
+  border: 1px solid rgba(31, 77, 58, 0.14);
+
+  border-radius: 24px;
+
+  background: rgba(247, 243, 234, 0.98);
+
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+
+  box-shadow:
+    0 22px 55px rgba(31, 77, 58, 0.12);
+}
+
+.mobile-menu-inner {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+
+/* =====================================================
+   MOBILE NAV LINKS
+===================================================== */
+
+.mobile-menu-inner > a:not(.mobile-menu-cta) {
+  display: grid;
+
+  grid-template-columns: 34px 1fr auto;
+
+  align-items: center;
+
+  gap: 12px;
+
+  min-height: 54px;
+
+  padding: 0 16px;
+
+  border-radius: 14px;
+
+  color: #1f4d3a;
+
+  text-decoration: none;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.mobile-menu-inner > a:not(.mobile-menu-cta):hover {
+  background: #ffffff;
+
+  transform: translateX(3px);
+}
+
+.mobile-menu-inner > a:not(.mobile-menu-cta) > span {
+  color: #d96b45;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.10em;
+}
+
+.mobile-menu-inner > a:not(.mobile-menu-cta) strong {
+  color: #171a18;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 15px;
+  font-weight: 650;
+
+  letter-spacing: -0.025em;
+}
+
+.mobile-menu-inner > a:not(.mobile-menu-cta) svg {
+  color: #d96b45;
+}
+
+
+/* =====================================================
+   MOBILE CTA
+===================================================== */
+
+.mobile-menu-cta {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 8px;
+
+  padding: 14px 15px;
+
+  border-radius: 15px;
+
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+  font-weight: 750;
+
+  text-decoration: none;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.mobile-menu-cta:hover {
+  background: #d96b45;
+
+  transform: translateY(-2px);
+}
+
+.mobile-menu-cta svg {
+  width: 32px;
+  height: 32px;
+
+  padding: 8px;
+
+  border-radius: 50%;
+
+  color: #1f4d3a;
+
+  background: #dde7de;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1180px) {
+
+  .navbar {
+    width: calc(100% - 40px);
+  }
+
+  .navbar-links {
+    gap: 17px;
+
+    margin-right: 17px;
+  }
+
+  .navbar-links a {
+    font-size: 10px;
+  }
+
+  .navbar-admin {
+    padding: 0 10px;
+
+    font-size: 9px;
+  }
+
+  .navbar-cta {
+    padding-left: 13px;
+
+    font-size: 10px;
+  }
+}
+
+
+/* =====================================================
+   TABLET / SMALL LAPTOP
+===================================================== */
+
+@media (max-width: 1000px) {
+
+  .navbar-links {
+    gap: 14px;
+  }
+
+  .navbar-links a {
+    font-size: 9px;
+  }
+
+  .navbar-admin {
+    display: none;
+  }
+
+  .navbar-cta {
+    font-size: 10px;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 800px) {
+
+  .navbar {
+    top: 12px;
+
+    width: calc(100% - 24px);
+
+    height: 62px;
+
+    padding: 0 9px 0 15px;
+
+    border-radius: 999px;
+  }
+
+  .navbar-logo {
+    gap: 9px;
+  }
+
+  .navbar-logo-mark {
+    width: 35px;
+    height: 35px;
+
+    font-size: 13px;
+  }
+
+  .navbar-logo-text strong {
+    font-size: 12px;
+  }
+
+  .navbar-logo-text small {
+    margin-top: 4px;
+
+    font-size: 5px;
+  }
+
+  .navbar-links,
+  .navbar-admin,
+  .navbar-cta {
+    display: none;
+  }
+
+  .navbar-menu-button {
+    display: flex;
+  }
+
+  .mobile-menu {
+    top: 86px;
+
+    width: calc(100% - 24px);
+
+    padding: 10px;
+
+    border-radius: 21px;
+  }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 400px) {
+
+  .navbar {
+    height: 58px;
+  }
+
+  .navbar-logo-text strong {
+    font-size: 11px;
+  }
+
+  .navbar-logo-text small {
+    font-size: 4px;
+  }
+
+  .navbar-menu-button {
+    width: 38px;
+    height: 38px;
+  }
+
+  .mobile-menu-inner > a:not(.mobile-menu-cta) {
+    min-height: 50px;
+  }
+
+  .mobile-menu-inner > a:not(.mobile-menu-cta) strong {
+    font-size: 14px;
+  }
+}

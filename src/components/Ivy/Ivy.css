@@ -1,0 +1,891 @@
+/* =====================================================
+   IVY SECTION
+===================================================== */
+
+.ivy-section {
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 30px 0 25px;
+
+  background: #f6f1ea;
+
+  color: #375844;
+}
+
+.ivy-container {
+  width: min(1280px, 90%);
+
+  margin: 0 auto;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.ivy-header {
+  margin-bottom: 75px;
+}
+
+.ivy-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  margin-bottom: 42px;
+
+  color: #c86836;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: .18em;
+}
+
+.ivy-label span {
+  color: #375844;
+
+  font-size: 11px;
+}
+
+.ivy-label i {
+  width: 42px;
+  height: 1px;
+
+  background: #c86836;
+}
+
+.ivy-heading {
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: 60px;
+}
+
+.ivy-heading h2 {
+  margin: 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(50px, 5.5vw, 78px);
+
+  font-weight: 600;
+
+  line-height: .88;
+
+  letter-spacing: -.08em;
+}
+
+.ivy-heading h2 em {
+  color: #c86836;
+
+  font-style: normal;
+}
+
+.ivy-heading > p {
+  width: 310px;
+
+  margin: 0;
+
+  color: #727b75;
+
+  font-size: 10px;
+
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.ivy-main {
+  display: grid;
+
+  grid-template-columns: .7fr 1.3fr;
+
+  min-height: 620px;
+
+  overflow: hidden;
+
+  border-radius: 25px;
+
+  background: #375844;
+}
+
+
+/* =====================================================
+   LEFT INFO
+===================================================== */
+
+.ivy-info {
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  padding: 48px 42px;
+
+  overflow: hidden;
+
+  color: #f8f3ed;
+}
+
+.ivy-info::before {
+  content: "";
+
+  position: absolute;
+
+  width: 340px;
+  height: 340px;
+
+  right: -180px;
+  bottom: -170px;
+
+  border-radius: 50%;
+
+  border:
+    1px solid
+    rgba(248,243,237,.1);
+}
+
+.ivy-orb-wrapper {
+  position: relative;
+
+  width: 105px;
+  height: 105px;
+
+  margin-bottom: 28px;
+}
+
+.ivy-orb {
+  width: 105px;
+  height: 105px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle at 35% 30%,
+      #f8d1bc,
+      #c86836 45%,
+      #8d4428 100%
+    );
+
+  box-shadow:
+    0 0 0 10px rgba(200,104,54,.08),
+    0 0 55px rgba(200,104,54,.22);
+}
+
+.ivy-orb-inner {
+  width: 55px;
+  height: 55px;
+
+  display: grid;
+
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255,255,255,.45);
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  background:
+    rgba(255,255,255,.08);
+
+  backdrop-filter: blur(5px);
+}
+
+.ivy-orb-dot {
+  position: absolute;
+
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: #efa47c;
+}
+
+.dot-one {
+  top: 5px;
+  right: 8px;
+}
+
+.dot-two {
+  right: -3px;
+  bottom: 22px;
+}
+
+.dot-three {
+  left: 4px;
+  bottom: 10px;
+}
+
+.ivy-eyebrow {
+  color: #efa47c;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: .17em;
+}
+
+.ivy-info h3 {
+  margin: 13px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 58px;
+
+  font-weight: 600;
+
+  line-height: .8;
+
+  letter-spacing: -.09em;
+}
+
+.ivy-info h3 em {
+  color: #efa47c;
+
+  font-style: normal;
+}
+
+.ivy-info > p {
+  max-width: 320px;
+
+  margin: 25px 0 0;
+
+  color: rgba(248,243,237,.62);
+
+  font-size: 9px;
+
+  line-height: 1.75;
+}
+
+
+/* =====================================================
+   BENEFITS
+===================================================== */
+
+.ivy-benefits {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-top: 28px;
+}
+
+.ivy-benefits div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.ivy-benefits span {
+  color: #efa47c;
+
+  font-size: 7px;
+
+  font-weight: 800;
+}
+
+.ivy-benefits p {
+  margin: 0;
+
+  color: rgba(248,243,237,.78);
+
+  font-size: 8px;
+}
+
+.ivy-book-link {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: auto;
+
+  color: #f8f3ed;
+
+  font-size: 8px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition:
+    color .3s ease,
+    gap .3s ease;
+}
+
+.ivy-book-link:hover {
+  gap: 12px;
+
+  color: #efa47c;
+}
+
+
+/* =====================================================
+   CHAT
+===================================================== */
+
+.ivy-chat {
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 20px;
+
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  background: #f8f5f0;
+
+  color: #375844;
+
+  box-shadow:
+    0 20px 70px
+    rgba(0,0,0,.12);
+}
+
+
+/* =====================================================
+   CHAT HEADER
+===================================================== */
+
+.ivy-chat-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 17px 20px;
+
+  border-bottom:
+    1px solid
+    rgba(55,88,68,.1);
+}
+
+.ivy-chat-person {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.ivy-avatar {
+  width: 35px;
+  height: 35px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  background: #c86836;
+}
+
+.ivy-chat-person > div:last-child {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 3px;
+}
+
+.ivy-chat-person strong {
+  font-size: 10px;
+}
+
+.ivy-chat-person span {
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  color: #7e8881;
+
+  font-size: 7px;
+}
+
+.ivy-chat-person span i {
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+
+  background: #6caa79;
+}
+
+.ivy-close {
+  width: 28px;
+  height: 28px;
+
+  display: grid;
+
+  place-items: center;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  color: #6f7972;
+
+  background: #ece9e2;
+
+  cursor: pointer;
+}
+
+
+/* =====================================================
+   MESSAGES
+===================================================== */
+
+.ivy-messages {
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+
+  min-height: 260px;
+
+  max-height: 320px;
+
+  overflow-y: auto;
+
+  padding: 22px;
+}
+
+.ivy-message {
+  display: flex;
+
+  align-items: flex-end;
+
+  gap: 7px;
+
+  max-width: 78%;
+}
+
+.ivy-message-user {
+  align-self: flex-end;
+
+  flex-direction: row-reverse;
+}
+
+.message-avatar {
+  width: 24px;
+  height: 24px;
+
+  flex-shrink: 0;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  background: #c86836;
+}
+
+.message-bubble {
+  padding: 10px 13px;
+
+  border-radius:
+    13px 13px 13px 3px;
+
+  color: #59645d;
+
+  background: #ebe8e1;
+
+  font-size: 8px;
+
+  line-height: 1.55;
+}
+
+.ivy-message-user
+.message-bubble {
+  border-radius:
+    13px 13px 3px 13px;
+
+  color: #fff;
+
+  background: #375844;
+}
+
+
+/* =====================================================
+   OPTIONS
+===================================================== */
+
+.ivy-options {
+  padding: 15px 20px;
+
+  border-top:
+    1px solid
+    rgba(55,88,68,.1);
+}
+
+.ivy-options > span {
+  color: #9a9f9b;
+
+  font-size: 6px;
+
+  font-weight: 800;
+
+  letter-spacing: .14em;
+}
+
+.ivy-option-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 7px;
+
+  margin-top: 10px;
+}
+
+.ivy-option {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  min-height: 50px;
+
+  padding: 8px 10px;
+
+  border:
+    1px solid
+    rgba(55,88,68,.1);
+
+  border-radius: 8px;
+
+  color: #375844;
+
+  background: #f8f5f0;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    border .25s ease,
+    background .25s ease,
+    transform .25s ease;
+}
+
+.ivy-option:hover,
+.ivy-option.active {
+  border-color: #c86836;
+
+  background: #fff;
+
+  transform: translateY(-2px);
+}
+
+.ivy-option > svg {
+  flex-shrink: 0;
+
+  color: #c86836;
+}
+
+.ivy-option div {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 3px;
+}
+
+.ivy-option strong {
+  font-size: 7px;
+}
+
+.ivy-option small {
+  color: #929892;
+
+  font-size: 6px;
+}
+
+
+/* =====================================================
+   INPUT
+===================================================== */
+
+.ivy-input {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin: 10px 20px 18px;
+
+  padding: 7px 7px 7px 12px;
+
+  border:
+    1px solid
+    rgba(55,88,68,.12);
+
+  border-radius: 100px;
+
+  background: #fff;
+}
+
+.ivy-input > svg {
+  color: #9da39e;
+}
+
+.ivy-input input {
+  flex: 1;
+
+  min-width: 0;
+
+  border: 0;
+
+  outline: 0;
+
+  color: #375844;
+
+  background: transparent;
+
+  font-family: inherit;
+
+  font-size: 8px;
+}
+
+.ivy-input input::placeholder {
+  color: #a7aaa7;
+}
+
+.ivy-input button {
+  width: 31px;
+  height: 31px;
+
+  display: grid;
+
+  place-items: center;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  background: #375844;
+
+  cursor: pointer;
+
+  transition:
+    transform .3s ease,
+    background .3s ease;
+}
+
+.ivy-input button:hover {
+  transform: rotate(-10deg);
+
+  background: #c86836;
+}
+
+
+/* =====================================================
+   BOTTOM
+===================================================== */
+
+.ivy-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-top: 65px;
+
+  padding-top: 25px;
+
+  border-top:
+    1px solid
+    rgba(55,88,68,.17);
+}
+
+.ivy-bottom > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #858d87;
+
+  font-size: 8px;
+}
+
+.ivy-bottom > div svg {
+  color: #c86836;
+}
+
+.ivy-bottom > a {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #c86836;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  text-decoration: none;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+  .ivy-section {
+    padding: 110px 0;
+  }
+
+  .ivy-main {
+    grid-template-columns: 1fr;
+  }
+
+  .ivy-info {
+    min-height: 500px;
+  }
+
+  .ivy-chat {
+    min-height: 580px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .ivy-section {
+    padding: 25px 0;
+  }
+
+  .ivy-container {
+    width: calc(100% - 36px);
+  }
+
+  .ivy-header {
+    margin-bottom: 45px;
+  }
+
+  .ivy-label {
+    margin-bottom: 28px;
+
+    font-size: 6px;
+  }
+
+  .ivy-heading {
+    display: block;
+  }
+
+  .ivy-heading h2 {
+    font-size: 42px;
+  }
+
+  .ivy-heading > p {
+    width: 100%;
+
+    margin-top: 20px;
+
+    font-size: 9px;
+  }
+
+  .ivy-info {
+    min-height: 470px;
+
+    padding: 35px 25px;
+  }
+
+  .ivy-info h3 {
+    font-size: 52px;
+  }
+
+  .ivy-chat {
+    margin: 10px;
+
+    min-height: 620px;
+  }
+
+  .ivy-messages {
+    min-height: 280px;
+
+    max-height: 340px;
+
+    padding: 18px;
+  }
+
+  .ivy-option-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ivy-option {
+    min-height: 45px;
+  }
+
+  .ivy-bottom {
+    display: block;
+
+    margin-top: 45px;
+  }
+
+  .ivy-bottom > a {
+    margin-top: 15px;
+  }
+
+}

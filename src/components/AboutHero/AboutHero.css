@@ -1,0 +1,473 @@
+/* =====================================================
+   ABOUT HERO
+===================================================== */
+
+.about-hero {
+  position: relative;
+
+  min-height: 100vh;
+
+  overflow: hidden;
+
+  padding: 145px 0 45px;
+
+  background: #f6f1ea;
+
+  color: #375844;
+}
+
+.about-hero-container {
+  width: min(1280px, 90%);
+
+  min-height: calc(100vh - 190px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.about-hero-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  color: #c86836;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.17em;
+}
+
+.about-hero-label span {
+  color: #375844;
+
+  font-size: 11px;
+}
+
+.about-hero-label i {
+  width: 43px;
+  height: 1px;
+
+  background: #c86836;
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.about-hero-main {
+  flex: 1;
+
+  display: grid;
+
+  grid-template-columns: 0.88fr 1.12fr;
+
+  align-items: center;
+
+  gap: 75px;
+
+  padding: 55px 0 45px;
+}
+
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.about-hero-content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.about-hero-small {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #c86836;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+}
+
+.about-hero-small svg {
+  width: 15px;
+  height: 15px;
+}
+
+.about-hero-content h1 {
+  margin: 22px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(58px, 7vw, 96px);
+
+  font-weight: 600;
+
+  line-height: 0.83;
+
+  letter-spacing: -0.09em;
+}
+
+.about-hero-content h1 em {
+  color: #c86836;
+
+  font-style: normal;
+}
+
+.about-hero-content > p {
+  max-width: 390px;
+
+  margin: 30px 0 0;
+
+  color: #707a73;
+
+  font-size: 10px;
+
+  line-height: 1.8;
+}
+
+
+/* =====================================================
+   LINK
+===================================================== */
+
+.about-hero-link {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 30px;
+
+  color: #375844;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  text-decoration: none;
+}
+
+.about-hero-link span {
+  width: 31px;
+  height: 31px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  background: #c86836;
+
+  transition:
+    transform 0.3s ease;
+}
+
+.about-hero-link:hover span {
+  transform: rotate(45deg);
+}
+
+
+/* =====================================================
+   VISUAL
+===================================================== */
+
+.about-hero-visual {
+  position: relative;
+
+  height: min(650px, 68vh);
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: #d8d0c4;
+}
+
+.about-hero-visual img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 1.2s
+    cubic-bezier(.16, 1, .3, 1);
+}
+
+.about-hero-visual:hover img {
+  transform: scale(1.04);
+}
+
+.about-hero-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(25, 55, 37, 0.02),
+      transparent 50%,
+      rgba(25, 55, 37, 0.65)
+    );
+}
+
+
+/* =====================================================
+   FLOATING CARD
+===================================================== */
+
+.about-hero-card {
+  position: absolute;
+
+  top: 25px;
+
+  right: 25px;
+
+  width: 125px;
+
+  padding: 17px;
+
+  border:
+    1px solid
+    rgba(246, 241, 234, 0.35);
+
+  border-radius: 13px;
+
+  color: #f6f1ea;
+
+  background:
+    rgba(55, 88, 68, 0.35);
+
+  backdrop-filter: blur(12px);
+}
+
+.about-hero-card span {
+  display: block;
+
+  color: #efa47c;
+
+  font-size: 6px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.13em;
+}
+
+.about-hero-card strong {
+  display: block;
+
+  margin-top: 9px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 19px;
+
+  font-weight: 600;
+
+  line-height: 0.9;
+
+  letter-spacing: -0.05em;
+}
+
+
+/* =====================================================
+   CAPTION
+===================================================== */
+
+.about-hero-caption {
+  position: absolute;
+
+  left: 27px;
+
+  bottom: 25px;
+
+  color: #f6f1ea;
+}
+
+.about-hero-caption span {
+  color: #efa47c;
+
+  font-size: 6px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.15em;
+}
+
+.about-hero-caption p {
+  margin: 7px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  line-height: 0.95;
+
+  letter-spacing: -0.04em;
+}
+
+
+/* =====================================================
+   BOTTOM
+===================================================== */
+
+.about-hero-bottom {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding-top: 20px;
+
+  border-top:
+    1px solid
+    rgba(55, 88, 68, 0.16);
+
+  color: #8c948e;
+
+  font-size: 6px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.15em;
+}
+
+.about-hero-bottom svg {
+  color: #c86836;
+}
+
+.about-hero-bottom span:last-child {
+  margin-left: auto;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+  .about-hero {
+    padding-top: 125px;
+  }
+
+  .about-hero-main {
+    grid-template-columns: 0.8fr 1.2fr;
+
+    gap: 35px;
+  }
+
+  .about-hero-content h1 {
+    font-size: 60px;
+  }
+
+  .about-hero-visual {
+    height: 570px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .about-hero {
+    min-height: auto;
+
+    padding: 105px 0 30px;
+  }
+
+  .about-hero-container {
+    width: calc(100% - 36px);
+
+    min-height: auto;
+  }
+
+  .about-hero-label {
+    font-size: 6px;
+  }
+
+  .about-hero-main {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 35px;
+
+    padding: 45px 0 35px;
+  }
+
+  .about-hero-content {
+    width: 100%;
+  }
+
+  .about-hero-content h1 {
+    font-size: 52px;
+  }
+
+  .about-hero-content > p {
+    max-width: 100%;
+
+    font-size: 9px;
+  }
+
+  .about-hero-visual {
+    width: 100%;
+
+    height: 470px;
+
+    border-radius: 18px;
+  }
+
+  .about-hero-card {
+    top: 17px;
+
+    right: 17px;
+  }
+
+  .about-hero-caption {
+    left: 20px;
+
+    bottom: 20px;
+  }
+
+  .about-hero-bottom {
+    font-size: 5px;
+  }
+
+}

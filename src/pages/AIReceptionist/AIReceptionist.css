@@ -1,0 +1,791 @@
+.ivy-launcher {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 66px;
+  height: 66px;
+  border: 0;
+  border-radius: 22px;
+  background: #17352d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 18px 45px rgba(20, 48, 40, 0.25);
+  transition: 0.25s ease;
+}
+
+.ivy-launcher:hover {
+  transform: translateY(-4px);
+}
+
+.ivy-launcher-inner {
+  width: 43px;
+  height: 43px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ivy-launcher-dot {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #70c39d;
+  border: 2px solid #17352d;
+}
+
+.ivy-launcher-label {
+  position: absolute;
+  right: 74px;
+  white-space: nowrap;
+  padding: 8px 11px;
+  border-radius: 9px;
+  background: #fff;
+  color: #28483e;
+  font-size: 10px;
+  font-weight: 600;
+  box-shadow: 0 8px 25px rgba(25, 45, 39, 0.12);
+  opacity: 0;
+  transform: translateX(5px);
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+.ivy-launcher:hover .ivy-launcher-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* ================================
+   MAIN WIDGET
+================================ */
+
+.ivy-widget {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 400px;
+  height: 670px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e5e9e6;
+  border-radius: 25px;
+  z-index: 10000;
+  box-shadow: 0 30px 90px rgba(27, 47, 40, 0.22);
+  animation: ivyAppear 0.25s ease;
+}
+
+@keyframes ivyAppear {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* ================================
+   TOPBAR
+================================ */
+
+.ivy-topbar {
+  min-height: 78px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #17352d, #2d5146);
+  color: #fff;
+}
+
+.ivy-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.ivy-logo {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.ivy-logo span {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #70c39d;
+  border: 2px solid #2d5146;
+}
+
+.ivy-brand-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ivy-brand-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.ivy-brand-status span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #70c39d;
+}
+
+.ivy-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.ivy-controls button {
+  width: 33px;
+  height: 33px;
+  border: 0;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.ivy-controls button:hover {
+  background: rgba(255, 255, 255, 0.17);
+}
+
+
+/* ================================
+   INTRO CARD
+================================ */
+
+.ivy-intro {
+  margin: 14px 15px 6px;
+  padding: 12px;
+  display: flex;
+  gap: 10px;
+  border-radius: 14px;
+  background: #f5f8f6;
+  border: 1px solid #e4ebe6;
+}
+
+.ivy-intro-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #315b4f;
+  background: #e3eee8;
+}
+
+.ivy-intro strong {
+  display: block;
+  color: #233b33;
+  font-size: 11px;
+}
+
+.ivy-intro p {
+  margin: 4px 0 0;
+  color: #7d8984;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+
+/* ================================
+   CONTENT
+================================ */
+
+.ivy-content {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.ivy-messages {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 14px 15px 5px;
+}
+
+.ivy-messages::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ivy-messages::-webkit-scrollbar-thumb {
+  background: #d9dfdc;
+  border-radius: 10px;
+}
+
+
+/* ================================
+   MESSAGES
+================================ */
+
+.ivy-message-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  margin-bottom: 13px;
+}
+
+.ivy-user-row {
+  justify-content: flex-end;
+}
+
+.ivy-message-avatar {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #31594d;
+  background: #e7efeb;
+}
+
+.ivy-message-bubble {
+  max-width: 78%;
+  padding: 10px 12px;
+  font-size: 10.5px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.ivy-ai-message {
+  color: #36443e;
+  background: #f2f5f3;
+  border-radius: 5px 14px 14px 14px;
+}
+
+.ivy-user-message {
+  color: #fff;
+  background: #2b4d42;
+  border-radius: 14px 5px 14px 14px;
+}
+
+
+/* ================================
+   TYPING
+================================ */
+
+.ivy-typing {
+  display: flex;
+  gap: 4px;
+  padding: 11px 13px;
+  border-radius: 5px 14px 14px 14px;
+  background: #f2f5f3;
+}
+
+.ivy-typing span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #78847f;
+  animation: ivyDots 1s infinite;
+}
+
+.ivy-typing span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.ivy-typing span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes ivyDots {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-4px);
+  }
+}
+
+
+/* ================================
+   QUICK ACTIONS
+================================ */
+
+.ivy-quick-actions {
+  padding: 6px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.ivy-quick-actions button {
+  min-height: 53px;
+  padding: 8px 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e1e7e3;
+  border-radius: 13px;
+  background: #fff;
+  color: #31584d;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.ivy-quick-actions button:hover {
+  background: #f5f8f6;
+  border-color: #cad8d1;
+  transform: translateY(-1px);
+}
+
+.ivy-quick-actions button > div {
+  flex: 1;
+}
+
+.ivy-quick-actions strong {
+  display: block;
+  font-size: 10px;
+  color: #29483e;
+}
+
+.ivy-quick-actions span {
+  display: block;
+  margin-top: 3px;
+  font-size: 8px;
+  color: #929c97;
+}
+
+
+/* ================================
+   SELECTION CARD
+================================ */
+
+.ivy-selection-card {
+  margin: 5px 15px 10px;
+  padding: 12px;
+  border: 1px solid #e0e8e3;
+  border-radius: 14px;
+  background: #f8faf8;
+}
+
+.ivy-selection-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 9px;
+  color: #31584d;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ivy-selection-card input[type="date"] {
+  width: 100%;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #dce4df;
+  border-radius: 9px;
+  outline: none;
+  background: #fff;
+  color: #40514a;
+  font-family: inherit;
+  font-size: 10px;
+}
+
+.ivy-selection-card input[type="date"]:focus {
+  border-color: #abc0b7;
+}
+
+
+/* ================================
+   TIME
+================================ */
+
+.ivy-time-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.ivy-time-grid button {
+  height: 34px;
+  border: 1px solid #dfe6e1;
+  border-radius: 9px;
+  background: #fff;
+  color: #466158;
+  font-family: inherit;
+  font-size: 9px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.ivy-time-grid button:hover {
+  color: #fff;
+  background: #2c4e43;
+  border-color: #2c4e43;
+}
+
+
+/* ================================
+   SERVICES
+================================ */
+
+.ivy-service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ivy-service-list button {
+  min-height: 36px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dfe6e1;
+  border-radius: 9px;
+  background: #fff;
+  color: #466158;
+  font-family: inherit;
+  font-size: 9px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.ivy-service-list button:hover {
+  background: #eef4f0;
+  color: #294c41;
+}
+
+
+/* ================================
+   CONFIRMATION
+================================ */
+
+.ivy-confirm-card {
+  margin: 5px 15px 10px;
+  padding: 13px;
+  border-radius: 15px;
+  border: 1px solid #dce7e1;
+  background: #f7faf8;
+}
+
+.ivy-confirm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #31594d;
+}
+
+.ivy-confirm-header strong {
+  display: block;
+  color: #29483e;
+  font-size: 11px;
+}
+
+.ivy-confirm-header span {
+  display: block;
+  margin-top: 3px;
+  color: #929b97;
+  font-size: 8px;
+}
+
+.ivy-summary {
+  margin-top: 10px;
+  display: grid;
+  gap: 7px;
+}
+
+.ivy-summary div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #66746e;
+  font-size: 9px;
+}
+
+.ivy-summary svg {
+  color: #52786b;
+  flex-shrink: 0;
+}
+
+.ivy-confirm {
+  width: 100%;
+  height: 39px;
+  margin-top: 11px;
+  border: 0;
+  border-radius: 10px;
+  background: #294b41;
+  color: #fff;
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ivy-confirm:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+/* ================================
+   SUCCESS
+================================ */
+
+.ivy-success-card {
+  margin: 5px 15px 10px;
+  padding: 17px;
+  text-align: center;
+  border-radius: 15px;
+  background: #f4faf7;
+  border: 1px solid #dce9e2;
+}
+
+.ivy-success-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #36735d;
+  background: #dcefe5;
+}
+
+.ivy-success-card strong {
+  display: block;
+  color: #27483c;
+  font-size: 12px;
+}
+
+.ivy-success-card p {
+  margin: 5px 0 12px;
+  color: #7d8984;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.ivy-success-card button {
+  height: 31px;
+  padding: 0 12px;
+  border: 1px solid #d4dfd9;
+  border-radius: 9px;
+  background: #fff;
+  color: #31594d;
+  font-family: inherit;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+
+/* ================================
+   COMPOSER
+================================ */
+
+.ivy-composer {
+  margin: 5px 13px 0;
+  padding: 6px 6px 6px 11px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid #dce3df;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.ivy-composer:focus-within {
+  border-color: #adc2b9;
+  box-shadow: 0 0 0 3px rgba(43, 77, 66, 0.05);
+}
+
+.ivy-composer textarea {
+  flex: 1;
+  min-height: 22px;
+  max-height: 70px;
+  resize: none;
+  outline: none;
+  border: 0;
+  background: transparent;
+  color: #2c3f38;
+  font-family: inherit;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.ivy-composer textarea::placeholder {
+  color: #9da6a2;
+}
+
+.ivy-composer button {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #294b41;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ivy-composer button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+.ivy-footer {
+  min-height: 29px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #a0aaa5;
+  font-size: 8px;
+}
+
+.ivy-footer span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ivy-footer button {
+  border: 0;
+  background: transparent;
+  color: #58766b;
+  font-family: inherit;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+
+/* ================================
+   MINIMIZED
+================================ */
+
+.ivy-widget-minimized {
+  width: 285px;
+  height: auto;
+  border-radius: 17px;
+}
+
+.ivy-minimized-bar {
+  width: 100%;
+  min-height: 58px;
+  padding: 8px 11px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border: 0;
+  background: #fff;
+  color: #29483e;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.ivy-minimized-bar > div {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #e7efeb;
+  color: #31594d;
+}
+
+.ivy-minimized-bar span {
+  flex: 1;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+  .ivy-launcher {
+    right: 17px;
+    bottom: 17px;
+    width: 57px;
+    height: 57px;
+    border-radius: 18px;
+  }
+
+  .ivy-launcher-label {
+    display: none;
+  }
+
+  .ivy-widget {
+    right: 10px;
+    bottom: 10px;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    max-height: 720px;
+    border-radius: 20px;
+  }
+
+  .ivy-widget-minimized {
+    width: calc(100vw - 30px);
+    height: auto;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .ivy-message-bubble {
+    max-width: 82%;
+  }
+}

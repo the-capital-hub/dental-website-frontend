@@ -1,0 +1,624 @@
+/* =====================================================
+   EMERGENCY SECTION
+===================================================== */
+
+.emergency-section {
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 35px 0 25px;
+
+  background: #f6f1ea;
+
+  color: #375844;
+}
+
+.emergency-container {
+  width: min(1280px, 90%);
+
+  margin: 0 auto;
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.emergency-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  margin-bottom: 55px;
+
+  color: #c86836;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: .18em;
+}
+
+.emergency-label span {
+  color: #375844;
+
+  font-size: 11px;
+}
+
+.emergency-label i {
+  width: 42px;
+  height: 1px;
+
+  background: #c86836;
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.emergency-main {
+  display: grid;
+
+  grid-template-columns: .8fr 1.2fr;
+
+  min-height: 590px;
+
+  overflow: hidden;
+
+  border-radius: 25px;
+
+  background: #375844;
+}
+
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.emergency-content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  padding: 48px 42px;
+
+  color: #f6f1ea;
+}
+
+.emergency-icon {
+  width: 43px;
+  height: 43px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #375844;
+
+  background: #efa47c;
+}
+
+.emergency-eyebrow {
+  margin-top: 25px;
+
+  color: #efa47c;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: .16em;
+}
+
+.emergency-content h2 {
+  margin: 15px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(50px, 5vw, 70px);
+
+  font-weight: 600;
+
+  line-height: .84;
+
+  letter-spacing: -.085em;
+}
+
+.emergency-content h2 em {
+  color: #efa47c;
+
+  font-style: normal;
+}
+
+.emergency-content > p {
+  max-width: 360px;
+
+  margin: 24px 0 0;
+
+  color: rgba(246,241,234,.62);
+
+  font-size: 9px;
+
+  line-height: 1.75;
+}
+
+
+/* =====================================================
+   POINTS
+===================================================== */
+
+.emergency-points {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  margin-top: 27px;
+}
+
+.emergency-points > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+}
+
+.emergency-points span {
+  width: 25px;
+  height: 25px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #375844;
+
+  background: rgba(239,164,124,.95);
+}
+
+.emergency-points p {
+  margin: 0;
+
+  color: rgba(246,241,234,.78);
+
+  font-size: 8px;
+}
+
+
+/* =====================================================
+   ACTIONS
+===================================================== */
+
+.emergency-actions {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: auto;
+}
+
+.emergency-call,
+.emergency-ivy {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  min-height: 40px;
+
+  padding: 0 16px;
+
+  border-radius: 100px;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  text-decoration: none;
+
+  transition:
+    transform .3s ease,
+    background .3s ease;
+}
+
+.emergency-call {
+  color: #375844;
+
+  background: #f6f1ea;
+}
+
+.emergency-call:hover {
+  transform: translateY(-3px);
+
+  background: #efa47c;
+}
+
+.emergency-ivy {
+  color: #f6f1ea;
+
+  border:
+    1px solid
+    rgba(246,241,234,.3);
+}
+
+.emergency-ivy:hover {
+  transform: translateY(-3px);
+
+  background:
+    rgba(246,241,234,.08);
+}
+
+
+/* =====================================================
+   IMAGE
+===================================================== */
+
+.emergency-image {
+  position: relative;
+
+  overflow: hidden;
+
+  min-height: 590px;
+}
+
+.emergency-image > img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 1s
+    cubic-bezier(.16,1,.3,1);
+}
+
+.emergency-main:hover
+.emergency-image > img {
+  transform: scale(1.05);
+}
+
+.emergency-image-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(20,45,30,.08),
+      transparent 40%,
+      rgba(20,45,30,.78)
+    );
+}
+
+
+/* =====================================================
+   BADGE
+===================================================== */
+
+.emergency-badge {
+  position: absolute;
+
+  top: 25px;
+  right: 25px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 15px 10px 10px;
+
+  border:
+    1px solid
+    rgba(246,241,234,.3);
+
+  border-radius: 100px;
+
+  color: #f6f1ea;
+
+  background:
+    rgba(55,88,68,.35);
+
+  backdrop-filter: blur(9px);
+}
+
+.emergency-badge-icon {
+  width: 32px;
+  height: 32px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #375844;
+
+  background: #efa47c;
+}
+
+.emergency-badge div:last-child {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 3px;
+}
+
+.emergency-badge span {
+  color: #efa47c;
+
+  font-size: 6px;
+
+  font-weight: 800;
+
+  letter-spacing: .14em;
+}
+
+.emergency-badge strong {
+  font-size: 9px;
+}
+
+
+/* =====================================================
+   IMAGE TEXT
+===================================================== */
+
+.emergency-image-text {
+  position: absolute;
+
+  left: 30px;
+  bottom: 28px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.emergency-image-text span {
+  color: #efa47c;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: .16em;
+}
+
+.emergency-image-text strong {
+  font-family: "Manrope", sans-serif;
+
+  font-size: 32px;
+
+  font-weight: 600;
+
+  line-height: .9;
+
+  letter-spacing: -.06em;
+}
+
+
+/* =====================================================
+   STRIP
+===================================================== */
+
+.emergency-strip {
+  display: grid;
+
+  grid-template-columns: 48px 1fr auto;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 35px;
+
+  padding: 17px 20px;
+
+  border:
+    1px solid
+    rgba(55,88,68,.16);
+
+  border-radius: 13px;
+
+  background: #efe9e0;
+}
+
+.emergency-strip-icon {
+  width: 38px;
+  height: 38px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #f6f1ea;
+
+  background: #c86836;
+}
+
+.emergency-strip > div:nth-child(2) {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.emergency-strip strong {
+  font-size: 9px;
+}
+
+.emergency-strip p {
+  margin: 0;
+
+  color: #7b847d;
+
+  font-size: 7px;
+}
+
+.emergency-strip > a {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #c86836;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  text-decoration: none;
+}
+
+
+/* =====================================================
+   DISCLAIMER
+===================================================== */
+
+.emergency-disclaimer {
+  margin: 22px 0 0;
+
+  color: #969d98;
+
+  font-size: 7px;
+
+  line-height: 1.6;
+
+  text-align: center;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+  .emergency-section {
+    padding: 110px 0;
+  }
+
+  .emergency-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .emergency-section {
+    padding: 85px 0;
+  }
+
+  .emergency-container {
+    width: calc(100% - 36px);
+  }
+
+  .emergency-label {
+    margin-bottom: 40px;
+
+    font-size: 6px;
+  }
+
+  .emergency-main {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .emergency-content {
+    min-height: 500px;
+
+    padding: 32px 23px;
+  }
+
+  .emergency-content h2 {
+    font-size: 48px;
+  }
+
+  .emergency-content > p {
+    font-size: 8px;
+  }
+
+  .emergency-image {
+    min-height: 390px;
+  }
+
+  .emergency-image-text {
+    left: 22px;
+    bottom: 22px;
+  }
+
+  .emergency-image-text strong {
+    font-size: 26px;
+  }
+
+  .emergency-badge {
+    top: 17px;
+    right: 17px;
+  }
+
+  .emergency-strip {
+    grid-template-columns: 40px 1fr;
+
+    gap: 11px;
+
+    padding: 15px;
+  }
+
+  .emergency-strip > a {
+    grid-column: 2;
+
+    justify-self: start;
+
+    margin-top: 4px;
+  }
+
+  .emergency-actions {
+    width: 100%;
+
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .emergency-call,
+  .emergency-ivy {
+    width: 100%;
+  }
+
+}

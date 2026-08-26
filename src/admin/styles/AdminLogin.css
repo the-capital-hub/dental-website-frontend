@@ -1,0 +1,763 @@
+/* =====================================================
+   OAK & IVORY — ADMIN LOGIN
+===================================================== */
+
+.admin-login {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+
+  background: #f6f1ea;
+
+  color: #375844;
+
+  overflow: hidden;
+}
+
+
+/* =====================================================
+   LEFT BRAND PANEL
+===================================================== */
+
+.admin-login-brand {
+  position: relative;
+
+  min-height: 100vh;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #375844 0%,
+      #294938 100%
+    );
+
+  color: #f6f1ea;
+}
+
+.admin-login-brand::before {
+  content: "";
+
+  position: absolute;
+
+  width: 520px;
+  height: 520px;
+
+  top: -180px;
+  right: -180px;
+
+  border: 1px solid rgba(246, 241, 234, 0.1);
+
+  border-radius: 50%;
+}
+
+.admin-login-brand::after {
+  content: "";
+
+  position: absolute;
+
+  width: 380px;
+  height: 380px;
+
+  bottom: -170px;
+  left: -170px;
+
+  border: 1px solid rgba(246, 241, 234, 0.08);
+
+  border-radius: 50%;
+}
+
+
+/* =====================================================
+   BRAND CONTENT
+===================================================== */
+
+.admin-login-brand-content {
+  position: relative;
+
+  z-index: 2;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  padding: 42px 55px;
+}
+
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.admin-login-logo {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 11px;
+
+  width: fit-content;
+
+  color: #f6f1ea;
+
+  text-decoration: none;
+}
+
+.admin-login-logo-mark {
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid rgba(246, 241, 234, 0.45);
+
+  border-radius: 50%;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.admin-login-logo > span:last-child {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1;
+}
+
+.admin-login-logo strong {
+  font-family: "Manrope", sans-serif;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  letter-spacing: -0.04em;
+}
+
+.admin-login-logo small {
+  margin-top: 5px;
+
+  color: rgba(246, 241, 234, 0.55);
+
+  font-size: 5px;
+  font-weight: 800;
+
+  letter-spacing: 0.3em;
+}
+
+
+/* =====================================================
+   BRAND COPY
+===================================================== */
+
+.admin-login-brand-copy {
+  max-width: 570px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.admin-login-eyebrow {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 9px;
+
+  color: #efa47c;
+
+  font-size: 7px;
+  font-weight: 800;
+
+  letter-spacing: 0.18em;
+}
+
+.admin-login-eyebrow::before {
+  content: "";
+
+  width: 28px;
+  height: 1px;
+
+  background: #efa47c;
+}
+
+.admin-login-brand-copy h1 {
+  margin: 25px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(55px, 6vw, 85px);
+
+  font-weight: 600;
+
+  line-height: 0.85;
+
+  letter-spacing: -0.09em;
+}
+
+.admin-login-brand-copy h1 em {
+  color: #efa47c;
+
+  font-style: normal;
+}
+
+.admin-login-brand-copy p {
+  max-width: 420px;
+
+  margin-top: 30px;
+
+  color: rgba(246, 241, 234, 0.6);
+
+  font-size: 10px;
+
+  line-height: 1.9;
+}
+
+
+/* =====================================================
+   BRAND FOOTER
+===================================================== */
+
+.admin-login-brand-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 25px;
+
+  border-top: 1px solid rgba(246, 241, 234, 0.13);
+
+  color: rgba(246, 241, 234, 0.5);
+
+  font-size: 7px;
+}
+
+.admin-login-brand-footer div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.admin-login-brand-footer svg {
+  color: #efa47c;
+}
+
+
+/* =====================================================
+   RIGHT FORM PANEL
+===================================================== */
+
+.admin-login-form-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  padding: 60px;
+}
+
+.admin-login-form-wrapper {
+  width: min(410px, 100%);
+}
+
+
+/* =====================================================
+   MOBILE LOGO
+===================================================== */
+
+.admin-login-mobile-logo {
+  display: none;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.admin-login-heading {
+  margin-bottom: 38px;
+}
+
+.admin-login-small-label {
+  color: #c86836;
+
+  font-size: 7px;
+  font-weight: 800;
+
+  letter-spacing: 0.18em;
+}
+
+.admin-login-heading h2 {
+  margin: 18px 0 0;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(48px, 5vw, 65px);
+
+  font-weight: 600;
+
+  line-height: 0.86;
+
+  letter-spacing: -0.08em;
+}
+
+.admin-login-heading h2 em {
+  color: #c86836;
+
+  font-style: normal;
+}
+
+.admin-login-heading p {
+  margin-top: 20px;
+
+  color: #7a837d;
+
+  font-size: 9px;
+
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 22px;
+}
+
+
+/* =====================================================
+   FIELD
+===================================================== */
+
+.admin-login-field {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.admin-login-field label,
+.admin-login-password-label label {
+  color: #375844;
+
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.admin-login-password-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-login-forgot {
+  padding: 0;
+
+  border: none;
+
+  color: #c86836;
+
+  background: transparent;
+
+  font-size: 7px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+/* =====================================================
+   INPUT
+===================================================== */
+
+.admin-login-input {
+  display: flex;
+  align-items: center;
+
+  min-height: 52px;
+
+  padding: 0 15px;
+
+  border: 1px solid rgba(55, 88, 68, 0.14);
+
+  border-radius: 13px;
+
+  color: #8b938d;
+
+  background: #eee7de;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.admin-login-input:focus-within {
+  border-color: #c86836;
+
+  background: #f6f1ea;
+
+  box-shadow:
+    0 0 0 4px rgba(200, 104, 54, 0.08);
+}
+
+.admin-login-input > svg {
+  flex-shrink: 0;
+
+  color: #c86836;
+}
+
+.admin-login-input input {
+  width: 100%;
+
+  min-width: 0;
+
+  padding: 0 11px;
+
+  border: none;
+  outline: none;
+
+  color: #375844;
+
+  background: transparent;
+
+  font-family: inherit;
+
+  font-size: 9px;
+}
+
+.admin-login-input input::placeholder {
+  color: #9ba29d;
+}
+
+
+/* =====================================================
+   PASSWORD TOGGLE
+===================================================== */
+
+.admin-login-password-toggle {
+  width: 28px;
+  height: 28px;
+
+  display: grid;
+  place-items: center;
+
+  flex-shrink: 0;
+
+  padding: 0;
+
+  border: none;
+
+  border-radius: 50%;
+
+  color: #7a837d;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
+}
+
+.admin-login-password-toggle:hover {
+  color: #375844;
+
+  background: #e4ddd4;
+}
+
+
+/* =====================================================
+   REMEMBER
+===================================================== */
+
+.admin-login-remember {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #7a837d;
+
+  font-size: 8px;
+
+  cursor: pointer;
+}
+
+.admin-login-remember input {
+  width: 14px;
+  height: 14px;
+
+  accent-color: #375844;
+
+  cursor: pointer;
+}
+
+
+/* =====================================================
+   SUBMIT
+===================================================== */
+
+.admin-login-submit {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+
+  min-height: 54px;
+
+  padding: 6px 7px 6px 18px;
+
+  border: none;
+
+  border-radius: 100px;
+
+  color: #f6f1ea;
+
+  background: #375844;
+
+  font-family: inherit;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.admin-login-submit:hover {
+  background: #c86836;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 12px 28px rgba(200, 104, 54, 0.2);
+}
+
+.admin-login-submit-icon {
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #375844;
+
+  background: #efa47c;
+
+  transition:
+    transform 0.3s ease;
+}
+
+.admin-login-submit:hover
+.admin-login-submit-icon {
+  transform: rotate(5deg);
+}
+
+
+/* =====================================================
+   BOTTOM
+===================================================== */
+
+.admin-login-bottom {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-top: 28px;
+
+  padding-top: 22px;
+
+  border-top: 1px solid rgba(55, 88, 68, 0.1);
+}
+
+.admin-login-security {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  color: #8b938d;
+
+  font-size: 7px;
+}
+
+.admin-login-security svg {
+  color: #375844;
+}
+
+.admin-login-bottom > a {
+  color: #c86836;
+
+  font-size: 7px;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.admin-login-bottom > a:hover {
+  text-decoration: underline;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+  .admin-login {
+    grid-template-columns: 0.85fr 1.15fr;
+  }
+
+  .admin-login-brand-content {
+    padding: 35px;
+  }
+
+  .admin-login-form-panel {
+    padding: 40px;
+  }
+
+  .admin-login-brand-copy h1 {
+    font-size: 60px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .admin-login {
+    display: block;
+
+    min-height: 100vh;
+  }
+
+  .admin-login-brand {
+    display: none;
+  }
+
+  .admin-login-form-panel {
+    min-height: 100vh;
+
+    align-items: flex-start;
+
+    padding: 35px 20px;
+  }
+
+  .admin-login-form-wrapper {
+    width: 100%;
+  }
+
+  .admin-login-mobile-logo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 60px;
+  }
+
+  .admin-login-mobile-logo .admin-login-logo-mark {
+    color: #375844;
+
+    border-color: rgba(55, 88, 68, 0.25);
+  }
+
+  .admin-login-mobile-logo > span:last-child {
+    display: flex;
+
+    flex-direction: column;
+
+    line-height: 1;
+  }
+
+  .admin-login-mobile-logo strong {
+    color: #375844;
+
+    font-family: "Manrope", sans-serif;
+
+    font-size: 13px;
+  }
+
+  .admin-login-mobile-logo small {
+    margin-top: 4px;
+
+    color: #8b938d;
+
+    font-size: 5px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.28em;
+  }
+
+  .admin-login-heading {
+    margin-bottom: 32px;
+  }
+
+  .admin-login-heading h2 {
+    font-size: 48px;
+  }
+
+  .admin-login-bottom {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+
+  .admin-login-form-panel {
+    padding: 28px 16px;
+  }
+
+  .admin-login-mobile-logo {
+    margin-bottom: 45px;
+  }
+
+  .admin-login-heading h2 {
+    font-size: 43px;
+  }
+
+}

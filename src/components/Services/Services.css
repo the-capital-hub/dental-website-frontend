@@ -1,0 +1,1100 @@
+/* =====================================================
+   OAK & IVORY — SERVICES
+   Premium Dental / Editorial UI
+
+   Forest Green  #1F4D3A
+   Terracotta    #D96B45
+   Warm Cream    #F7F3EA
+   Black         #171A18
+   Sage          #DDE7DE
+===================================================== */
+
+
+/* =====================================================
+   SECTION
+===================================================== */
+
+.services-section {
+  position: relative;
+  overflow: hidden;
+
+  padding: 82px 0 72px;
+
+  background: #1f4d3a;
+  color: #f7f3ea;
+}
+
+
+/* =====================================================
+   CONTAINER
+===================================================== */
+
+.services-container {
+  width: min(1380px, calc(100% - 80px));
+
+  margin: 0 auto;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.services-header {
+  margin-bottom: 44px;
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.services-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 28px;
+
+  color: #d96b45;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.17em;
+}
+
+.services-label span {
+  color: #f7f3ea;
+  font-size: 11px;
+}
+
+.services-label i {
+  width: 32px;
+  height: 1px;
+
+  background: #d96b45;
+}
+
+.services-label p {
+  margin: 0;
+}
+
+
+/* =====================================================
+   HEADER CONTENT
+===================================================== */
+
+.services-heading-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 50px;
+}
+
+.services-heading-row h2 {
+  margin: 0;
+
+  color: #f7f3ea;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(46px, 5.3vw, 74px);
+
+  font-weight: 600;
+
+  line-height: 0.94;
+
+  letter-spacing: -0.075em;
+}
+
+.services-heading-row h2 em {
+  color: #e29a77;
+
+  font-style: italic;
+  font-weight: 500;
+}
+
+.services-heading-row > p {
+  width: min(350px, 30%);
+
+  margin: 0;
+
+  color: rgba(247, 243, 234, 0.64);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 12px;
+
+  line-height: 1.65;
+}
+
+
+/* =====================================================
+   FEATURED SERVICE
+===================================================== */
+
+.services-feature {
+  display: grid;
+
+  grid-template-columns: 58% 42%;
+
+  min-height: 400px;
+
+  overflow: hidden;
+
+  border-radius: 20px;
+
+  background: #f7f3ea;
+
+  color: #171a18;
+}
+
+
+/* =====================================================
+   FEATURE IMAGE
+===================================================== */
+
+.services-feature-image {
+  position: relative;
+
+  min-height: 400px;
+
+  overflow: hidden;
+}
+
+.services-feature-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  transition:
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.services-feature:hover
+.services-feature-image img {
+  transform: scale(1.04);
+}
+
+
+/* =====================================================
+   FEATURE IMAGE OVERLAY
+===================================================== */
+
+.services-feature-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent 40%,
+      rgba(23, 26, 24, 0.72) 100%
+    );
+}
+
+
+/* =====================================================
+   FEATURE IMAGE CAPTION
+===================================================== */
+
+.services-feature-caption {
+  position: absolute;
+
+  left: 28px;
+  bottom: 26px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 7px;
+
+  color: #ffffff;
+}
+
+.services-feature-caption span {
+  color: #f0a07c;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 0.17em;
+}
+
+.services-feature-caption strong {
+  font-family: "Manrope", sans-serif;
+
+  font-size: 27px;
+  font-weight: 600;
+
+  line-height: 0.98;
+
+  letter-spacing: -0.055em;
+}
+
+
+/* =====================================================
+   FEATURE CONTENT
+===================================================== */
+
+.services-feature-content {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 34px 38px;
+}
+
+
+/* =====================================================
+   FEATURE NUMBER
+===================================================== */
+
+.feature-number {
+  position: absolute;
+
+  top: 27px;
+  right: 30px;
+
+  color: #d96b45;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.1em;
+}
+
+
+/* =====================================================
+   FEATURE ICON
+===================================================== */
+
+.feature-icon {
+  width: 36px;
+  height: 36px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+}
+
+.services-feature-content > span {
+  margin-top: 14px;
+
+  color: #d96b45;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 0.15em;
+}
+
+
+/* =====================================================
+   FEATURE TITLE
+===================================================== */
+
+.services-feature-content h3 {
+  margin: 14px 0 0;
+
+  color: #171a18;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 42px;
+
+  font-weight: 600;
+
+  line-height: 0.94;
+
+  letter-spacing: -0.07em;
+}
+
+
+/* =====================================================
+   FEATURE DESCRIPTION
+===================================================== */
+
+.services-feature-content p {
+  max-width: 310px;
+
+  margin: 18px 0 0;
+
+  color: #77736c;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+
+  line-height: 1.65;
+}
+
+
+/* =====================================================
+   FEATURE BUTTON
+===================================================== */
+
+.services-feature-content a {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 28px;
+
+  padding: 11px 15px;
+
+  border-radius: 999px;
+
+  color: #f7f3ea;
+
+  background: #1f4d3a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+  font-weight: 750;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.services-feature-content a:hover {
+  background: #d96b45;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(217, 107, 69, 0.18);
+}
+
+
+/* =====================================================
+   SERVICE LIST
+===================================================== */
+
+.services-list {
+  margin-top: 40px;
+
+  border-top:
+    1px solid rgba(247, 243, 234, 0.18);
+}
+
+
+/* =====================================================
+   SERVICE ROW
+===================================================== */
+
+.service-row {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    50px 1fr 180px 42px;
+
+  align-items: center;
+
+  gap: 24px;
+
+  min-height: 96px;
+
+  border-bottom:
+    1px solid rgba(247, 243, 234, 0.18);
+
+  transition:
+    padding 0.35s ease,
+    background 0.35s ease;
+}
+
+.service-row:hover {
+  padding-left: 8px;
+}
+
+
+/* =====================================================
+   SERVICE NUMBER
+===================================================== */
+
+.service-number {
+  color: #e29a77;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.1em;
+}
+
+
+/* =====================================================
+   SERVICE MAIN
+===================================================== */
+
+.service-main {
+  display: grid;
+
+  grid-template-columns:
+    minmax(220px, 0.8fr)
+    minmax(220px, 0.6fr);
+
+  align-items: center;
+
+  gap: 30px;
+}
+
+.service-main h3 {
+  margin: 0;
+
+  color: #f7f3ea;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1;
+
+  letter-spacing: -0.055em;
+
+  transition:
+    color 0.3s ease;
+}
+
+.service-row:hover
+.service-main h3 {
+  color: #e29a77;
+}
+
+.service-main p {
+  max-width: 270px;
+
+  margin: 0;
+
+  color: rgba(247, 243, 234, 0.52);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  line-height: 1.55;
+}
+
+
+/* =====================================================
+   SERVICE IMAGE
+===================================================== */
+
+.service-image {
+  width: 180px;
+  height: 68px;
+
+  overflow: hidden;
+
+  border-radius: 8px;
+
+  opacity: 0;
+
+  transform:
+    translateX(12px)
+    scale(0.96);
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.35s ease;
+}
+
+.service-row:hover .service-image {
+  opacity: 1;
+
+  transform:
+    translateX(0)
+    scale(1);
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+
+/* =====================================================
+   SERVICE ARROW
+===================================================== */
+
+.service-arrow {
+  width: 38px;
+  height: 38px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid rgba(247, 243, 234, 0.25);
+
+  border-radius: 50%;
+
+  color: #f7f3ea;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.service-arrow:hover {
+  transform: rotate(45deg);
+
+  color: #1f4d3a;
+
+  background: #f7f3ea;
+}
+
+
+/* =====================================================
+   ADDITIONAL SERVICES
+===================================================== */
+
+.additional-services {
+  margin-top: 48px;
+
+  padding-top: 22px;
+
+  border-top:
+    1px solid rgba(247, 243, 234, 0.18);
+}
+
+.additional-heading {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  color: #e29a77;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 0.15em;
+}
+
+.additional-heading svg {
+  color: #f7f3ea;
+}
+
+
+/* =====================================================
+   ADDITIONAL GRID
+===================================================== */
+
+.additional-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  margin-top: 16px;
+
+  border-top:
+    1px solid rgba(247, 243, 234, 0.14);
+
+  border-left:
+    1px solid rgba(247, 243, 234, 0.14);
+}
+
+.additional-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  min-height: 56px;
+
+  padding: 0 15px;
+
+  border-right:
+    1px solid rgba(247, 243, 234, 0.14);
+
+  border-bottom:
+    1px solid rgba(247, 243, 234, 0.14);
+
+  transition:
+    background 0.25s ease;
+}
+
+.additional-item:hover {
+  background:
+    rgba(247, 243, 234, 0.05);
+}
+
+.additional-item > span {
+  color: #d96b45;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 7px;
+  font-weight: 800;
+}
+
+.additional-item strong {
+  flex: 1;
+
+  color: #f7f3ea;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.additional-item svg {
+  color:
+    rgba(247, 243, 234, 0.48);
+
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.additional-item:hover svg {
+  transform: rotate(90deg);
+
+  color: #e29a77;
+}
+
+
+/* =====================================================
+   BOTTOM CTA
+===================================================== */
+
+.services-bottom {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 38px;
+
+  padding-top: 17px;
+
+  border-top:
+    1px solid rgba(247, 243, 234, 0.18);
+}
+
+.services-bottom > span {
+  color:
+    rgba(247, 243, 234, 0.48);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 8px;
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
+}
+
+.services-bottom a {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  color: #e29a77;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+  font-weight: 750;
+
+  text-decoration: none;
+
+  transition:
+    color 0.25s ease;
+}
+
+.services-bottom a:hover {
+  color: #f7f3ea;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+  .services-container {
+    width: calc(100% - 56px);
+  }
+
+  .services-heading-row {
+    gap: 35px;
+  }
+
+  .services-heading-row > p {
+    width: 34%;
+  }
+
+  .services-feature {
+    grid-template-columns: 55% 45%;
+  }
+
+  .services-feature-content {
+    padding: 30px;
+  }
+
+  .services-feature-content h3 {
+    font-size: 37px;
+  }
+
+  .service-row {
+    grid-template-columns:
+      42px 1fr 42px;
+
+    gap: 16px;
+  }
+
+  .service-image {
+    display: none;
+  }
+
+  .service-main {
+    grid-template-columns:
+      minmax(190px, 0.8fr)
+      minmax(180px, 0.7fr);
+
+    gap: 20px;
+  }
+
+}
+
+
+/* =====================================================
+   TABLET / SMALL LAPTOP
+===================================================== */
+
+@media (max-width: 900px) {
+
+  .services-feature {
+    grid-template-columns: 53% 47%;
+  }
+
+  .services-feature-content {
+    padding: 27px;
+  }
+
+  .services-feature-content h3 {
+    font-size: 34px;
+  }
+
+  .services-feature-content p {
+    max-width: 270px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .services-section {
+    padding: 66px 0 60px;
+  }
+
+  .services-container {
+    width: calc(100% - 36px);
+  }
+
+
+  /* HEADER */
+
+  .services-header {
+    margin-bottom: 34px;
+  }
+
+  .services-label {
+    margin-bottom: 21px;
+
+    font-size: 7px;
+  }
+
+  .services-label span {
+    font-size: 9px;
+  }
+
+  .services-label i {
+    width: 24px;
+  }
+
+  .services-heading-row {
+    display: block;
+  }
+
+  .services-heading-row h2 {
+    font-size: 42px;
+
+    line-height: 0.95;
+  }
+
+  .services-heading-row > p {
+    width: 100%;
+
+    margin-top: 16px;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+  }
+
+
+  /* FEATURE */
+
+  .services-feature {
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: auto;
+
+    border-radius: 16px;
+  }
+
+  .services-feature-image {
+    min-height: 250px;
+
+    height: 250px;
+  }
+
+  .services-feature-caption {
+    left: 20px;
+    bottom: 19px;
+  }
+
+  .services-feature-caption strong {
+    font-size: 21px;
+  }
+
+  .services-feature-content {
+    min-height: auto;
+
+    padding: 25px 21px 27px;
+  }
+
+  .feature-number {
+    top: 22px;
+    right: 21px;
+  }
+
+  .feature-icon {
+    width: 33px;
+    height: 33px;
+  }
+
+  .services-feature-content > span {
+    margin-top: 12px;
+  }
+
+  .services-feature-content h3 {
+    font-size: 34px;
+  }
+
+  .services-feature-content p {
+    max-width: 330px;
+
+    margin-top: 13px;
+
+    font-size: 9px;
+  }
+
+  .services-feature-content a {
+    margin-top: 22px;
+  }
+
+
+  /* SERVICE LIST */
+
+  .services-list {
+    margin-top: 31px;
+  }
+
+  .service-row {
+    grid-template-columns:
+      28px 1fr 34px;
+
+    gap: 9px;
+
+    min-height: 91px;
+  }
+
+  .service-number {
+    font-size: 8px;
+  }
+
+  .service-main {
+    display: block;
+  }
+
+  .service-main h3 {
+    font-size: 19px;
+
+    line-height: 1.05;
+  }
+
+  .service-main p {
+    max-width: 300px;
+
+    margin-top: 7px;
+
+    font-size: 8px;
+
+    line-height: 1.5;
+  }
+
+  .service-arrow {
+    width: 33px;
+    height: 33px;
+  }
+
+
+  /* ADDITIONAL SERVICES */
+
+  .additional-services {
+    margin-top: 40px;
+
+    padding-top: 20px;
+  }
+
+  .additional-grid {
+    grid-template-columns: 1fr;
+
+    margin-top: 14px;
+  }
+
+  .additional-item {
+    min-height: 51px;
+
+    padding: 0 13px;
+  }
+
+
+  /* BOTTOM CTA */
+
+  .services-bottom {
+    display: block;
+
+    margin-top: 32px;
+
+    padding-top: 16px;
+  }
+
+  .services-bottom > span {
+    font-size: 7px;
+  }
+
+  .services-bottom a {
+    margin-top: 11px;
+
+    font-size: 10px;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 420px) {
+
+  .services-section {
+    padding-top: 56px;
+  }
+
+  .services-container {
+    width: calc(100% - 30px);
+  }
+
+  .services-heading-row h2 {
+    font-size: 37px;
+  }
+
+  .services-feature-image {
+    min-height: 230px;
+    height: 230px;
+  }
+
+  .services-feature-content {
+    padding: 22px 18px 24px;
+  }
+
+  .services-feature-content h3 {
+    font-size: 31px;
+  }
+
+  .service-main h3 {
+    font-size: 18px;
+  }
+
+  .additional-item {
+    min-height: 49px;
+  }
+
+}
+
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .services-feature-image img,
+  .service-image,
+  .service-row,
+  .additional-item {
+    transition: none;
+  }
+
+}
