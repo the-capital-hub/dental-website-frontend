@@ -353,13 +353,7 @@ const Pricing = () => {
                 }}
               >
 
-                <div className="pricing-label">
-
-                  <span>04</span>
-                  <i />
-                  <p>TRANSPARENT COMMUNICATION</p>
-
-                </div>
+                
 
                 <h2>
                   No confusing

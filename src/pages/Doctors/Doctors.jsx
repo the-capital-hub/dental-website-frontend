@@ -24,7 +24,7 @@ const doctors = [
     image:
       "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1000&q=90",
     bio:
-      "Focused on creating natural-looking results through thoughtful treatment planning and a calm, patient-first approach.",
+      "Focused on creating natural looking results through thoughtful treatment planning and a calm, patient-first approach.",
   },
   {
     number: "02",
@@ -546,7 +546,7 @@ const Doctors = () => {
 
                   <div>
                     <Check size={15} />
-                    <span>Evidence-informed treatment planning</span>
+                    <span>Evidence informed treatment planning</span>
                   </div>
 
                   <div>

@@ -26,7 +26,7 @@ const treatments = [
     category: "GENERAL DENTISTRY",
     title: "General Dentistry",
     text:
-      "Preventive check-ups, professional cleaning, fillings and everyday dental care designed to keep your oral health in good shape.",
+      "Preventive check ups, professional cleaning, fillings and everyday dental care designed to keep your oral health in good shape.",
     image:
       "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=90",
   },
@@ -44,7 +44,7 @@ const treatments = [
     category: "RESTORATIVE",
     title: "Dental Implants",
     text:
-      "A long-term solution for missing teeth, planned carefully to restore comfort, function and a natural-looking smile.",
+      "A long term solution for missing teeth, planned carefully to restore comfort, function and a natural-looking smile.",
     image:
       "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1000&q=90",
   },
@@ -221,7 +221,7 @@ const Services = () => {
                 <p>
                   From preventive care to complete smile
                   transformations, every treatment begins
-                  with understanding what you need—not
+                  with understanding what you need not
                   simply what can be done.
                 </p>
 
@@ -415,7 +415,7 @@ const Services = () => {
                 advanced restorative and cosmetic
                 treatments, every recommendation is
                 made with your health, comfort and
-                long-term goals in mind.
+                long term goals in mind.
               </p>
 
             </div>

@@ -40,7 +40,7 @@ const differences = [
   "Personalised treatment planning",
   "Modern dental technology",
   "Clear and honest communication",
-  "Comfort-focused appointments",
+  "Comfort focused appointments",
   "Experienced clinical team",
   "Thoughtful aftercare",
 ];
@@ -486,7 +486,7 @@ const About = () => {
 
                   <div>
                     <ShieldCheck size={16} />
-                    <span>Precision-focused care</span>
+                    <span>Precision focused care</span>
                   </div>
 
                 </div>

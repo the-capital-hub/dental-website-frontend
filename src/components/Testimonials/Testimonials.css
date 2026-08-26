@@ -502,6 +502,7 @@
 }
 
 .testimonial-item-active {
+  padding: 10px;
   background:
     rgba(247, 243, 234, 0.045);
 }
