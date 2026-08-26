@@ -284,15 +284,6 @@ const Services = () => {
             </div>
 
 
-            <div className="services-scroll">
-
-              <span>SCROLL TO EXPLORE</span>
-
-              <ArrowDown size={14} />
-
-              <span>08 TREATMENTS</span>
-
-            </div>
 
           </div>
 
@@ -314,13 +305,7 @@ const Services = () => {
               viewport={{ once: true }}
             >
 
-              <div className="services-label centered">
-
-                <span>02</span>
-                <i />
-                <p>CARE FOR EVERY STAGE</p>
-
-              </div>
+              
 
               <h2>
                 The right care
@@ -518,118 +503,7 @@ const Services = () => {
             HOW WE PLAN CARE
         ===================================================== */}
 
-        <section className="services-planning">
-
-          <div className="services-container">
-
-            <div className="services-planning-grid">
-
-              <motion.div
-                className="services-planning-image"
-                initial={{
-                  opacity: 0,
-                  x: -35,
-                }}
-                whileInView={{
-                  opacity: 1,
-                  x: 0,
-                }}
-                viewport={{
-                  once: true,
-                }}
-              >
-
-                <img
-                  src="https://images.unsplash.com/photo-1643297654410-bd91c6d89a70?auto=format&fit=crop&w=1200&q=90"
-                  alt="Dentist consultation"
-                />
-
-                <div className="services-planning-badge">
-
-                  <Clock3 size={15} />
-
-                  <span>
-                    YOUR TIME MATTERS
-                  </span>
-
-                </div>
-
-              </motion.div>
-
-
-              <motion.div
-                className="services-planning-content"
-                initial={{
-                  opacity: 0,
-                  x: 35,
-                }}
-                whileInView={{
-                  opacity: 1,
-                  x: 0,
-                }}
-                viewport={{
-                  once: true,
-                }}
-              >
-
-                <div className="services-label">
-
-                  <span>04</span>
-                  <i />
-                  <p>HOW WE PLAN YOUR CARE</p>
-
-                </div>
-
-                <h2>
-                  No one-size-fits-all
-                  <br />
-                  <em>treatment plans.</em>
-                </h2>
-
-                <p className="services-planning-lead">
-                  Your dental needs are unique. That's why
-                  we begin with conversation, not assumptions.
-                </p>
-
-                <div className="services-planning-points">
-
-                  <div>
-                    <span>01</span>
-                    <p>
-                      Understand your concerns and goals.
-                    </p>
-                  </div>
-
-                  <div>
-                    <span>02</span>
-                    <p>
-                      Assess your current oral health.
-                    </p>
-                  </div>
-
-                  <div>
-                    <span>03</span>
-                    <p>
-                      Explain every suitable option.
-                    </p>
-                  </div>
-
-                  <div>
-                    <span>04</span>
-                    <p>
-                      Build a plan together.
-                    </p>
-                  </div>
-
-                </div>
-
-              </motion.div>
-
-            </div>
-
-          </div>
-
-        </section>
+       
 
 
         {/* =====================================================
@@ -642,13 +516,7 @@ const Services = () => {
 
             <div className="services-heading-center">
 
-              <div className="services-label centered">
-
-                <span>05</span>
-                <i />
-                <p>YOUR TREATMENT JOURNEY</p>
-
-              </div>
+              
 
               <h2>
                 From first conversation

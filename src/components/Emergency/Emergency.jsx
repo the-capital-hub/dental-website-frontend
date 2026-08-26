@@ -259,11 +259,7 @@ const Emergency = () => {
             DISCLAIMER
         ===================================== */}
 
-        <p className="emergency-disclaimer">
-          For severe medical emergencies requiring
-          immediate hospital care, please contact
-          your local emergency medical service.
-        </p>
+        
 
       </div>
     </section>

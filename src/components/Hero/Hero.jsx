@@ -134,7 +134,7 @@ const Hero = () => {
             }}
           >
             Modern dentistry, thoughtfully designed around
-            you — from preventive care to cosmetic and
+            you from preventive care to cosmetic and
             restorative treatments.
           </motion.p>
 
@@ -265,45 +265,7 @@ const Hero = () => {
           HERO BOTTOM
       ================================================= */}
 
-      <motion.div
-        className="dental-hero-bottom"
-
-        initial={{
-          opacity: 0,
-        }}
-
-        animate={{
-          opacity: 1,
-        }}
-
-        transition={{
-          delay: 1,
-          duration: 0.8,
-        }}
-      >
-
-        <div className="hero-bottom-location">
-
-          <span className="hero-location-dot" />
-
-          <span>
-            Modern dental care
-          </span>
-
-        </div>
-
-
-        <div className="hero-bottom-scroll">
-
-          <span>
-            Scroll to explore
-          </span>
-
-          <span className="scroll-line" />
-
-        </div>
-
-      </motion.div>
+      
 
     </section>
   );

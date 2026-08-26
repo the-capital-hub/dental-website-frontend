@@ -175,15 +175,7 @@ const Pricing = () => {
 
             </div>
 
-            <div className="pricing-scroll">
-
-              <span>SCROLL TO EXPLORE</span>
-
-              <ArrowDown size={14} />
-
-              <span>PRICING & PAYMENT</span>
-
-            </div>
+            
 
           </div>
 
@@ -205,13 +197,7 @@ const Pricing = () => {
               viewport={{ once: true }}
             >
 
-              <div className="pricing-label centered">
-
-                <span>02</span>
-                <i />
-                <p>BEFORE YOU DECIDE</p>
-
-              </div>
+              
 
               <h2>
                 You deserve to know
@@ -243,13 +229,7 @@ const Pricing = () => {
 
             <div className="pricing-section-heading">
 
-              <div className="pricing-label">
-
-                <span>03</span>
-                <i />
-                <p>YOUR CONSULTATION</p>
-
-              </div>
+              
 
               <h2>
                 What we'll
@@ -451,13 +431,7 @@ const Pricing = () => {
               }}
             >
 
-              <div className="pricing-label centered">
-
-                <span>05</span>
-                <i />
-                <p>PAYMENT OPTIONS</p>
-
-              </div>
+              
 
               <h2>
                 Making payment

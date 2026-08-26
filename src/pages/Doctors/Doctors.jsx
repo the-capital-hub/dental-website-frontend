@@ -179,11 +179,7 @@ const Doctors = () => {
 
             </div>
 
-            <div className="doctors-scroll">
-              <span>SCROLL TO MEET THE TEAM</span>
-              <ArrowDown size={14} />
-              <span>01 — 03</span>
-            </div>
+           
 
           </div>
 
@@ -194,42 +190,7 @@ const Doctors = () => {
             INTRO
         ===================================================== */}
 
-        <section className="doctors-intro">
-
-          <div className="doctors-container">
-
-            <motion.div
-              className="doctors-intro-inner"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-
-              <div className="doctors-label centered">
-                <span>02</span>
-                <i />
-                <p>A DIFFERENT KIND OF CLINICAL TEAM</p>
-              </div>
-
-              <h2>
-                Expertise matters.
-                <br />
-                <em>So does how you feel.</em>
-              </h2>
-
-              <p>
-                The relationship between a patient and their dentist
-                can shape the entire treatment experience. That's why
-                we value not only clinical skill, but also patience,
-                communication and the ability to make complex decisions
-                feel simple.
-              </p>
-
-            </motion.div>
-
-          </div>
-
-        </section>
+        
 
 
         {/* =====================================================
@@ -245,11 +206,7 @@ const Doctors = () => {
 
             <div className="doctors-team-heading">
 
-              <div className="doctors-label">
-                <span>03</span>
-                <i />
-                <p>MEET THE TEAM</p>
-              </div>
+              
 
               <h2>
                 Clinicians with
@@ -405,11 +362,6 @@ const Doctors = () => {
                 }}
               >
 
-                <div className="doctors-label">
-                  <span>04</span>
-                  <i />
-                  <p>HOW WE WORK WITH YOU</p>
-                </div>
 
                 <h2>
                   Your dentist
@@ -490,11 +442,7 @@ const Doctors = () => {
               }}
             >
 
-              <div className="doctors-label centered">
-                <span>05</span>
-                <i />
-                <p>WHAT GUIDES US</p>
-              </div>
+              
 
               <h2>
                 Good care is
@@ -571,11 +519,6 @@ const Doctors = () => {
 
               <div className="doctors-standard-heading">
 
-                <div className="doctors-label">
-                  <span>06</span>
-                  <i />
-                  <p>OUR CLINICAL STANDARD</p>
-                </div>
 
                 <h2>
                   Skill that keeps

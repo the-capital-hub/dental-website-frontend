@@ -59,16 +59,6 @@ const About = () => {
         <section className="about-hero">
           <div className="about-container">
 
-            <motion.div
-              className="about-section-label"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
-            >
-              <span>01</span>
-              <i />
-              <p>ABOUT OAK & IVORY</p>
-            </motion.div>
 
             <div className="about-hero-grid">
 
@@ -144,11 +134,7 @@ const About = () => {
 
             </div>
 
-            <div className="about-scroll">
-              <span>SCROLL TO EXPLORE</span>
-              <ArrowDown size={14} />
-              <span>EST. 2026</span>
-            </div>
+            
 
           </div>
         </section>
@@ -193,7 +179,7 @@ const About = () => {
                 transition={{ duration: 0.8 }}
               >
                 <div className="about-small-label">
-                  <i />
+                
                   <span>WHY WE DO THINGS DIFFERENTLY</span>
                 </div>
 
@@ -248,21 +234,7 @@ const About = () => {
         <section className="about-story">
           <div className="about-container">
 
-            <div className="about-story-header">
-
-              <div className="about-section-label">
-                <span>04</span>
-                <i />
-                <p>OUR STORY</p>
-              </div>
-
-              <h2>
-                Built around
-                <br />
-                <em>a simple idea.</em>
-              </h2>
-
-            </div>
+            
 
 
             <div className="about-story-grid">
@@ -358,11 +330,7 @@ const About = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
               >
-                <div className="about-section-label">
-                  <span>05</span>
-                  <i />
-                  <p>WHAT MAKES US DIFFERENT</p>
-                </div>
+                
 
                 <h2>
                   Better care
@@ -415,11 +383,7 @@ const About = () => {
 
             <div className="about-team-heading">
 
-              <div className="about-section-label">
-                <span>06</span>
-                <i />
-                <p>THE PEOPLE BEHIND THE CARE</p>
-              </div>
+              
 
               <div>
                 <h2>
@@ -490,11 +454,7 @@ const About = () => {
 
               <div className="about-technology-content">
 
-                <div className="about-section-label">
-                  <span>07</span>
-                  <i />
-                  <p>MODERN TECHNOLOGY</p>
-                </div>
+                
 
                 <h2>
                   Precision
@@ -558,56 +518,6 @@ const About = () => {
             PATIENT PROMISE
         ================================================== */}
 
-        <section className="about-promise">
-          <div className="about-container">
-
-            <motion.div
-              className="about-promise-inner"
-              initial={{
-                opacity: 0,
-                scale: 0.97,
-              }}
-              whileInView={{
-                opacity: 1,
-                scale: 1,
-              }}
-              viewport={{
-                once: true,
-              }}
-              transition={{
-                duration: 0.8,
-              }}
-            >
-
-              <div className="about-section-label">
-                <span>08</span>
-                <i />
-                <p>OUR PATIENT PROMISE</p>
-              </div>
-
-              <h2>
-                You deserve to feel
-                <br />
-                <em>confident in your care.</em>
-              </h2>
-
-              <p>
-                We'll always take the time to listen,
-                explain your options and help you make
-                decisions that feel right for you.
-              </p>
-
-              <div className="about-promise-signature">
-                <span>OAK & IVORY</span>
-                <strong>
-                  Care, with intention.
-                </strong>
-              </div>
-
-            </motion.div>
-
-          </div>
-        </section>
 
 
         {/* ==================================================

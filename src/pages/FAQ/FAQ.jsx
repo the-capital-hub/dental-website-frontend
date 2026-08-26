@@ -210,15 +210,7 @@ const FAQ = () => {
 
             </div>
 
-            <div className="faq-scroll">
-
-              <span>SCROLL FOR ANSWERS</span>
-
-              <ArrowDown size={14} />
-
-              <span>24 / 7</span>
-
-            </div>
+            
 
           </div>
 
@@ -229,43 +221,7 @@ const FAQ = () => {
             INTRO
         ===================================================== */}
 
-        <section className="faq-intro">
-
-          <div className="faq-container">
-
-            <motion.div
-              className="faq-intro-inner"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-
-              <div className="faq-label centered light-label">
-
-                <span>02</span>
-                <i />
-                <p>WHY WE EXPLAIN</p>
-
-              </div>
-
-              <h2>
-                Good care starts with
-                <br />
-                <em>understanding.</em>
-              </h2>
-
-              <p>
-                Dental decisions can feel complicated.
-                We believe clear information helps you
-                feel more comfortable and confident about
-                your choices.
-              </p>
-
-            </motion.div>
-
-          </div>
-
-        </section>
+      
 
 
         {/* =====================================================
@@ -281,13 +237,7 @@ const FAQ = () => {
 
             <div className="faq-section-heading">
 
-              <div className="faq-label">
-
-                <span>03</span>
-                <i />
-                <p>COMMON QUESTIONS</p>
-
-              </div>
+              
 
               <h2>
                 Let's clear up
@@ -432,13 +382,7 @@ const FAQ = () => {
                 viewport={{ once: true }}
               >
 
-                <div className="faq-label">
-
-                  <span>04</span>
-                  <i />
-                  <p>STILL HAVE A QUESTION?</p>
-
-                </div>
+               
 
                 <h2>
                   Just ask
@@ -539,18 +483,12 @@ const FAQ = () => {
 
             <div className="faq-links-heading">
 
-              <div className="faq-label centered">
-
-                <span>05</span>
-                <i />
-                <p>LOOKING FOR SOMETHING ELSE?</p>
-
-              </div>
+              
 
               <h2>
                 Find your
-                <br />
-                <em>next step.</em>
+                 
+                <em> next step.</em>
               </h2>
 
             </div>

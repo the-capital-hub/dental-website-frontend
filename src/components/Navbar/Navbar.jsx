@@ -37,10 +37,7 @@ const navLinks = [
     name: "Our Dentists",
     href: "/doctors",
   },
-  {
-    name: "Ivy",
-    href: "/ai-receptionist",
-  },
+  
   {
     name: "Testimonials",
     href: "/patient-testimonials",
@@ -49,10 +46,7 @@ const navLinks = [
     name: "Pricing",
     href: "/pricing",
   },
-  {
-    name: "FAQ",
-    href: "/faq",
-  },
+  
   {
     name: "WhatsApp",
     href: "/whatsapp",

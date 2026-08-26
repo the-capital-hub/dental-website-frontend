@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 
 import "./Services.css";
+import { Link } from "react-router-dom";
 
 
 /* =====================================================
@@ -116,19 +117,7 @@ const Services = () => {
           }}
         >
 
-          <div className="services-label">
-
-            <span>
-              02
-            </span>
-
-            <i />
-
-            <p>
-              OUR SERVICES
-            </p>
-
-          </div>
+          
 
 
           <div className="services-heading-row">
@@ -230,13 +219,13 @@ const Services = () => {
 
                 {/* ACTION */}
 
-                <a
-                  href="#appointment"
-                  className="service-arrow"
-                  aria-label={`Book ${service.title}`}
-                >
-                  <ArrowUpRight size={17} />
-                </a>
+                <Link
+  to="/appointment"
+  className="service-arrow"
+  aria-label={`Book ${service.title}`}
+>
+  <ArrowUpRight size={17} />
+</Link>
 
               </motion.article>
 

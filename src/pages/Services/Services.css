@@ -348,9 +348,7 @@
 .services-heading-center {
   max-width: 720px;
 
-  margin: 0 auto 65px;
-
-  text-align: center;
+  
 }
 
 .services-heading-center h2 {
@@ -374,7 +372,7 @@
 }
 
 .services-heading-center > p {
-  max-width: 440px;
+  
 
   margin: 25px auto 0;
 

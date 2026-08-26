@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 
 import "./Doctors.css";
+import { Link } from "react-router-dom";
 
 const doctors = [
   {
@@ -178,10 +179,10 @@ const Doctors = () => {
             TRUSTED EXPERTS · PERSONAL CARE
           </span>
 
-          <a href="#appointment">
-            Book with our team
-            <ArrowUpRight size={15} />
-          </a>
+          <Link to="/appointment">
+  Book with our team
+  <ArrowUpRight size={15} />
+</Link>
 
         </motion.div>
 

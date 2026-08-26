@@ -4,7 +4,14 @@ import {
   Mail,
   MapPin,
   Phone,
+  
 } from "lucide-react";
+
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 import "./Footer.css";
 
@@ -199,6 +206,38 @@ const Footer = () => {
             <span className="footer-column-title">
               CONTACT
             </span>
+
+
+            <div className="footer-socials">
+
+  <a
+    href="https://www.instagram.com/YOUR_USERNAME/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <FaInstagram size={18} />
+  </a>
+
+  <a
+    href="https://www.facebook.com/YOUR_USERNAME"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <FaFacebookF size={18} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/company/YOUR_COMPANY/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+  >
+    <FaLinkedinIn size={18} />
+  </a>
+
+</div>
 
             <a
               href="/contact"

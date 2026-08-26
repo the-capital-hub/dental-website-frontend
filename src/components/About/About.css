@@ -376,6 +376,8 @@
 ===================================================== */
 
 .about-values {
+  padding: 20px;
+  margin: 10px;
   padding: 0;
   display: grid;
 
@@ -398,6 +400,8 @@
 ===================================================== */
 
 .about-value-intro {
+  padding: 10px;
+  margin: 10px;
   display: flex;
 
   align-items: flex-start;
@@ -425,6 +429,8 @@
 ===================================================== */
 
 .about-value {
+  padding: 10px;
+  margin: 10px;
   display: flex;
 
   align-items: flex-start;
@@ -614,6 +620,7 @@
   /* VALUES */
 
   .about-values {
+    
     display: flex;
 
     flex-direction: column;

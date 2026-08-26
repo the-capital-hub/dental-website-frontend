@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 
 import "./Cosmetic.css";
+import { Link } from "react-router-dom";
 
 const treatments = [
   {
@@ -213,16 +214,16 @@ const Cosmetic = () => {
 
             </div>
 
-            <a
-              href="#appointment"
-              className="cosmetic-button"
-            >
-              Explore your options
+            <Link
+  to="/appointment"
+  className="cosmetic-button"
+>
+  Explore your options
 
-              <span>
-                <ArrowUpRight size={15} />
-              </span>
-            </a>
+  <span>
+    <ArrowUpRight size={15} />
+  </span>
+</Link>
 
           </div>
 
@@ -333,11 +334,10 @@ const Cosmetic = () => {
             </p>
           </div>
 
-          <a href="#appointment">
-            Book a consultation
-            <ArrowUpRight size={16} />
-          </a>
-
+          <Link to="/appointment">
+  Book a consultation
+  <ArrowUpRight size={16} />
+</Link>
         </motion.div>
 
       </div>

@@ -304,7 +304,7 @@ const Testimonials = () => {
                   </p>
 
                   <strong>
-                    — {testimonial.name}
+                    {testimonial.name}
                   </strong>
 
                 </div>

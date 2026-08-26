@@ -13,30 +13,6 @@ const About = () => {
             SECTION LABEL
         ================================================= */}
 
-        <motion.div
-          className="about-top"
-          initial={{
-            opacity: 0,
-            y: 15,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{
-            once: true,
-            amount: 0.4,
-          }}
-          transition={{
-            duration: 0.6,
-          }}
-        >
-          <span className="about-line" />
-
-          <span>
-            OUR APPROACH
-          </span>
-        </motion.div>
 
 
         {/* =================================================
@@ -80,7 +56,7 @@ const About = () => {
 
             <p>
               We believe dental care should feel
-              personal, clear and comfortable —
+              personal, clear and comfortable
               never clinical or rushed.
             </p>
 

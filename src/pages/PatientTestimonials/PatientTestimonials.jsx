@@ -172,15 +172,7 @@ const PatientTestimonials = () => {
 
             </div>
 
-            <div className="stories-scroll">
-
-              <span>SCROLL TO EXPLORE</span>
-
-              <ArrowDown size={14} />
-
-              <span>PATIENT VOICES</span>
-
-            </div>
+            
 
           </div>
 
@@ -202,13 +194,7 @@ const PatientTestimonials = () => {
               viewport={{ once: true }}
             >
 
-              <div className="stories-label centered">
-
-                <span>02</span>
-                <i />
-                <p>THE PATIENT EXPERIENCE</p>
-
-              </div>
+              
 
               <h2>
                 A better dental visit
@@ -241,13 +227,7 @@ const PatientTestimonials = () => {
 
             <div className="stories-section-heading">
 
-              <div className="stories-label">
-
-                <span>03</span>
-                <i />
-                <p>FEATURED TESTIMONIAL</p>
-
-              </div>
+              
 
               <h2>
                 From hesitation
@@ -377,13 +357,7 @@ const PatientTestimonials = () => {
               }}
             >
 
-              <div className="stories-label centered">
-
-                <span>04</span>
-                <i />
-                <p>THE JOURNEY</p>
-
-              </div>
+              
 
               <h2>
                 Every transformation
@@ -481,13 +455,7 @@ const PatientTestimonials = () => {
 
             <div className="stories-grid-heading">
 
-              <div className="stories-label">
-
-                <span>05</span>
-                <i />
-                <p>PATIENT VOICES</p>
-
-              </div>
+              
 
               <h2>
                 Different people.
@@ -649,13 +617,7 @@ const PatientTestimonials = () => {
                 }}
               >
 
-                <div className="stories-label">
-
-                  <span>06</span>
-                  <i />
-                  <p>WHAT YOU CAN EXPECT</p>
-
-                </div>
+                
 
                 <h2>
                   Thoughtful from
@@ -700,7 +662,7 @@ const PatientTestimonials = () => {
             STATEMENT
         ===================================================== */}
 
-        <section className="stories-statement">
+        {/* <section className="stories-statement">
 
           <div className="stories-container">
 
@@ -739,7 +701,7 @@ const PatientTestimonials = () => {
 
           </div>
 
-        </section>
+        </section> */}
 
 
         {/* =====================================================

@@ -189,15 +189,7 @@ const WhatsApp = () => {
             </div>
 
 
-            <div className="whatsapp-scroll">
-
-              <span>SCROLL TO EXPLORE</span>
-
-              <ArrowDown size={14} />
-
-              <span>6 WAYS TO CONNECT</span>
-
-            </div>
+            
 
           </div>
 
@@ -219,13 +211,7 @@ const WhatsApp = () => {
               viewport={{ once: true }}
             >
 
-              <div className="whatsapp-label centered">
-
-                <span>02</span>
-                <i />
-                <p>CONNECT WITH US</p>
-
-              </div>
+              
 
               <h2>
                 One message can
@@ -256,13 +242,7 @@ const WhatsApp = () => {
 
             <div className="whatsapp-section-heading">
 
-              <div className="whatsapp-label">
-
-                <span>03</span>
-                <i />
-                <p>HOW WE CAN HELP</p>
-
-              </div>
+              
 
               <h2>
                 Message us
@@ -397,13 +377,7 @@ const WhatsApp = () => {
                 }}
               >
 
-                <div className="whatsapp-label">
-
-                  <span>04</span>
-                  <i />
-                  <p>WHAT HAPPENS NEXT?</p>
-
-                </div>
+                
 
                 <h2>
                   From your
