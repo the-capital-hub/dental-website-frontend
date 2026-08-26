@@ -40,7 +40,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -97,7 +97,7 @@
 
   color: #727b75;
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -162,7 +162,7 @@
 .contact-info-top > span {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -196,7 +196,7 @@
 
   color: rgba(246,241,234,.6);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -244,7 +244,7 @@
 .contact-detail small {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -255,7 +255,7 @@
 .contact-detail a {
   color: #f6f1ea;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 700;
 
@@ -267,7 +267,7 @@
 
   color: rgba(246,241,234,.52);
 
-  font-size: 7px;
+  font-size: 11px;
 
   line-height: 1.5;
 }
@@ -300,7 +300,7 @@
 
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -324,13 +324,13 @@
 .hours-row span {
   color: rgba(246,241,234,.52);
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .hours-row strong {
   color: rgba(246,241,234,.8);
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -359,7 +359,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -535,7 +535,7 @@
 
   background: #f6f1ea;
 
-  font-size: 5px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -547,7 +547,7 @@
 
   color: rgba(55,88,68,.35);
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -589,7 +589,7 @@
 
   background: #f6f1ea;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -639,7 +639,7 @@
 .contact-form-heading > span {
   color: #7d867f;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -679,7 +679,7 @@
 .contact-field label {
   color: #919792;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -706,7 +706,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   transition:
     border .25s ease,
@@ -767,7 +767,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -838,7 +838,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -872,7 +872,7 @@
 
   color: #7d867f;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -894,7 +894,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -928,7 +928,7 @@
 .contact-bottom > span {
   color: #929993;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -946,13 +946,13 @@
 .contact-bottom > div span {
   color: #929993;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 }
 
 .contact-bottom > div strong {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .contact-bottom > a {
@@ -964,7 +964,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -1014,7 +1014,7 @@
   .contact-label {
     margin-bottom: 28px;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .contact-heading {
@@ -1030,7 +1030,7 @@
 
     margin-top: 20px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .contact-info {

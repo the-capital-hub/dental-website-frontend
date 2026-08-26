@@ -121,7 +121,7 @@
 
   color: rgba(246, 241, 234, 0.5);
 
-  font-size: 5px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -209,7 +209,7 @@
 }
 
 .admin-sidebar-status strong {
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -219,7 +219,7 @@
 
   color: rgba(246, 241, 234, 0.42);
 
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -248,7 +248,7 @@
 
   color: rgba(246, 241, 234, 0.3);
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -321,7 +321,7 @@
 }
 
 .admin-sidebar-link-text {
-  font-size: 8px;
+  font-size: 11px;
 
   font-weight: 700;
 
@@ -391,7 +391,7 @@
 .admin-sidebar-ivy-content span {
   color: #efa47c;
 
-  font-size: 5px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -401,7 +401,7 @@
 .admin-sidebar-ivy-content strong {
   margin-top: 4px;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .admin-sidebar-ivy-content small {
@@ -409,7 +409,7 @@
 
   color: rgba(246, 241, 234, 0.4);
 
-  font-size: 5px;
+  font-size: 11px;
 }
 
 .admin-sidebar-ivy-status {
@@ -465,7 +465,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 11px;
 
   font-weight: 700;
 
@@ -570,7 +570,7 @@
 
   color: #89928c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   line-height: 1.4;
 }
@@ -698,7 +698,7 @@
 }
 
 .admin-header-profile-info strong {
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .admin-header-profile-info small {
@@ -706,7 +706,7 @@
 
   color: #8b938d;
 
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .admin-header-profile > svg {
@@ -995,7 +995,7 @@
 
   border: 2px solid #ffffff;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
 
   line-height: 1;
@@ -1263,7 +1263,7 @@
 .admin-notification-item-text small {
   color: #aaa29a;
 
-  font-size: 9px;
+  font-size: 12px;
 }
 
 
@@ -1345,7 +1345,7 @@
 
 
 .admin-notification-empty span {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 

@@ -52,7 +52,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -307,7 +307,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 750;
 
@@ -317,7 +317,7 @@
 .about-image-label strong {
   color: #f0aa86;
 
-  font-size: 9px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -365,7 +365,7 @@
 .about-image-note span {
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
 
   font-weight: 650;
 }
@@ -408,7 +408,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -439,7 +439,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
 
   font-weight: 800;
 }
@@ -469,7 +469,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.55;
 }
@@ -531,7 +531,7 @@
 
     margin-bottom: 38px;
 
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .about-line {
@@ -575,7 +575,7 @@
   .about-button {
     margin-top: 20px;
 
-    font-size: 10px;
+    font-size: 12px;
   }
 
 
@@ -595,7 +595,7 @@
 
     right: 18px;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .about-image-note {
@@ -607,7 +607,7 @@
   }
 
   .about-image-note span {
-    font-size: 8px;
+    font-size: 12px;
   }
 
 
@@ -626,7 +626,7 @@
   }
 
   .about-value-intro {
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .about-value h3 {
@@ -636,7 +636,7 @@
   .about-value p {
     max-width: 280px;
 
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }

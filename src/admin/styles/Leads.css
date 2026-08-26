@@ -24,7 +24,7 @@
   align-items: center;
   gap: 8px;
   color: #c86836;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.18em;
 }
@@ -49,7 +49,7 @@
 .leads-page-header p {
   margin: 9px 0 0;
   color: #8b938d;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 
@@ -68,7 +68,7 @@
   color: #f6f1ea;
   background: #294938;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
   transition:
@@ -131,7 +131,7 @@
 
 .leads-summary-card span {
   color: #929b95;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 700;
 }
 
@@ -165,7 +165,7 @@
 
 .leads-funnel-header span {
   color: #efa47c;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.16em;
 }
@@ -179,7 +179,7 @@
 
 .leads-funnel-header strong {
   color: rgba(246, 241, 234, 0.55);
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .leads-funnel-track {
@@ -220,7 +220,7 @@
 }
 
 .leads-funnel-step span {
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -286,7 +286,7 @@
   color: #294938;
   background: transparent;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .leads-search input::placeholder {
@@ -324,7 +324,7 @@
 
 .leads-filter > span {
   color: #89928c;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 700;
 }
 
@@ -337,7 +337,7 @@
   color: #294938;
   background: transparent;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -366,7 +366,7 @@
 .leads-table th {
   padding: 0 10px 10px;
   color: #a0a7a2;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-align: left;
@@ -399,7 +399,7 @@
   border-radius: 50%;
   color: #294938;
   background: #eee7de;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -410,7 +410,7 @@
 
 .lead-table-name strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   white-space: nowrap;
 }
@@ -418,7 +418,7 @@
 .lead-table-name span {
   margin-top: 3px;
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 
@@ -429,7 +429,7 @@
 .lead-treatment,
 .lead-date {
   color: #69766f;
-  font-size: 6px;
+  font-size: 11px;
   white-space: nowrap;
 }
 
@@ -450,7 +450,7 @@
   border-radius: 100px;
   color: #66746c;
   background: #eee7de;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -471,7 +471,7 @@
   border-radius: 100px;
   outline: none;
   font-family: inherit;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -511,7 +511,7 @@
   color: #c86836;
   background: transparent;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -553,7 +553,7 @@
 .leads-empty p {
   margin: 5px 0 0;
   color: #9ba29d;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -603,7 +603,7 @@
 
 .lead-modal-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.16em;
 }
@@ -664,7 +664,7 @@
 .lead-profile p {
   margin: 5px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -690,13 +690,13 @@
 
 .lead-profile-grid span {
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
   text-transform: uppercase;
 }
 
 .lead-profile-grid strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   word-break: break-word;
 }
 
@@ -723,7 +723,7 @@
   padding: 0 13px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   text-decoration: none;
   cursor: pointer;
@@ -759,7 +759,7 @@
 
 .lead-form-field label {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -774,7 +774,7 @@
   color: #294938;
   background: #eee7de;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .lead-form-field input:focus,
@@ -803,7 +803,7 @@
   padding: 0 14px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -905,13 +905,13 @@
 
   .lead-mobile-details span {
     color: #9ba29d;
-    font-size: 5px;
+    font-size: 11px;
     text-transform: uppercase;
   }
 
   .lead-mobile-details strong {
     color: #375844;
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .lead-mobile-view {
@@ -926,7 +926,7 @@
     color: #c86836;
     background: #f9f6f1;
     font-family: inherit;
-    font-size: 6px;
+    font-size: 11px;
     font-weight: 800;
   }
 

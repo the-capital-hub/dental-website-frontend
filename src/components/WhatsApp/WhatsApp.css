@@ -161,7 +161,7 @@
 }
 
 .whatsapp-profile strong {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .whatsapp-profile span {
@@ -173,7 +173,7 @@
 
   color: rgba(246,241,234,.6);
 
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .whatsapp-profile span i {
@@ -221,7 +221,7 @@
 
   color: #999f9a;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -254,7 +254,7 @@
 
   color: #59655d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.6;
 }
@@ -262,7 +262,7 @@
 .whatsapp-message small {
   color: #a3a7a4;
 
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -303,7 +303,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 700;
 
@@ -369,7 +369,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .whatsapp-input input::placeholder {

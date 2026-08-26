@@ -151,7 +151,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -430,7 +430,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -492,7 +492,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
 
   font-weight: 700;
 
@@ -536,7 +536,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
 
   font-weight: 650;
 
@@ -721,7 +721,7 @@
   .dental-hero-label {
     margin-bottom: 15px;
 
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .dental-hero-label span {
@@ -815,7 +815,7 @@
   .dental-hero-card p {
     margin: 10px 0 15px;
 
-    font-size: 10px;
+    font-size: 12px;
   }
 
 
@@ -827,7 +827,7 @@
 
     bottom: 20px;
 
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .scroll-line {
@@ -874,7 +874,7 @@
   }
 
   .dental-hero-bottom {
-    font-size: 6px;
+    font-size: 11px;
   }
 
 }

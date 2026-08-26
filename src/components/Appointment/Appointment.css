@@ -40,7 +40,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -97,7 +97,7 @@
 
   color: #727b75;
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -162,7 +162,7 @@
 .appointment-info-top > span {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -196,7 +196,7 @@
 
   color: rgba(246,241,234,.6);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.75;
 }
@@ -250,7 +250,7 @@
 }
 
 .appointment-details strong {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .appointment-details p {
@@ -258,7 +258,7 @@
 
   color: rgba(246,241,234,.5);
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .appointment-ivy {
@@ -272,7 +272,7 @@
 
   color: #efa47c;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -322,7 +322,7 @@
 .appointment-field label {
   color: #8c938d;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -380,7 +380,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .appointment-input input::placeholder {
@@ -434,7 +434,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   text-align: left;
 
@@ -496,7 +496,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   text-align: left;
 
@@ -537,7 +537,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.6;
 
@@ -586,7 +586,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -630,7 +630,7 @@
 
   color: #a0a59f;
 
-  font-size: 6px;
+  font-size: 11px;
 
   line-height: 1.6;
 
@@ -684,7 +684,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -718,7 +718,7 @@
 
   color: #7e8780;
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -768,7 +768,7 @@
 .success-summary span {
   color: #9a9f9b;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -776,7 +776,7 @@
 }
 
 .success-summary strong {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 
@@ -801,7 +801,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -842,7 +842,7 @@
 .appointment-bottom > span {
   color: #929993;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -858,7 +858,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -908,7 +908,7 @@
   .appointment-label {
     margin-bottom: 28px;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .appointment-heading {
@@ -924,7 +924,7 @@
 
     margin-top: 20px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .appointment-info {

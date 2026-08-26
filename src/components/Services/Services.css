@@ -60,7 +60,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.17em;
@@ -227,7 +227,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.17em;
@@ -274,7 +274,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.1em;
@@ -306,7 +306,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.15em;
@@ -375,7 +375,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 750;
 
   text-decoration: none;
@@ -448,7 +448,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.1em;
@@ -504,7 +504,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.55;
 }
@@ -609,7 +609,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.15em;
@@ -670,7 +670,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -681,7 +681,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -725,7 +725,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 
   letter-spacing: 0.14em;
@@ -742,7 +742,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 750;
 
   text-decoration: none;
@@ -857,11 +857,11 @@
   .services-label {
     margin-bottom: 21px;
 
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .services-label span {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .services-label i {
@@ -883,7 +883,7 @@
 
     margin-top: 16px;
 
-    font-size: 10px;
+    font-size: 12px;
 
     line-height: 1.6;
   }
@@ -945,7 +945,7 @@
 
     margin-top: 13px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .services-feature-content a {
@@ -969,7 +969,7 @@
   }
 
   .service-number {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .service-main {
@@ -987,7 +987,7 @@
 
     margin-top: 7px;
 
-    font-size: 8px;
+    font-size: 12px;
 
     line-height: 1.5;
   }
@@ -1030,13 +1030,13 @@
   }
 
   .services-bottom > span {
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .services-bottom a {
     margin-top: 11px;
 
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }

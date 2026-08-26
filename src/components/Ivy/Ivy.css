@@ -40,7 +40,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -97,7 +97,7 @@
 
   color: #727b75;
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -243,7 +243,7 @@
 .ivy-eyebrow {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -277,7 +277,7 @@
 
   color: rgba(248,243,237,.62);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.75;
 }
@@ -308,7 +308,7 @@
 .ivy-benefits span {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -318,7 +318,7 @@
 
   color: rgba(248,243,237,.78);
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .ivy-book-link {
@@ -332,7 +332,7 @@
 
   color: #f8f3ed;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 700;
 
@@ -425,7 +425,7 @@
 }
 
 .ivy-chat-person strong {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .ivy-chat-person span {
@@ -437,7 +437,7 @@
 
   color: #7e8881;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .ivy-chat-person span i {
@@ -534,7 +534,7 @@
 
   background: #ebe8e1;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.55;
 }
@@ -565,7 +565,7 @@
 .ivy-options > span {
   color: #9a9f9b;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -638,13 +638,13 @@
 }
 
 .ivy-option strong {
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .ivy-option small {
   color: #929892;
 
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -691,7 +691,7 @@
 
   font-family: inherit;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .ivy-input input::placeholder {
@@ -757,7 +757,7 @@
 
   color: #858d87;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .ivy-bottom > div svg {
@@ -773,7 +773,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -827,7 +827,7 @@
   .ivy-label {
     margin-bottom: 28px;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .ivy-heading {
@@ -843,7 +843,7 @@
 
     margin-top: 20px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .ivy-info {

@@ -25,7 +25,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.17em;
 }
@@ -78,7 +78,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.14em;
 }
@@ -130,7 +130,7 @@
   color: #f6f1ea;
   background: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   cursor: pointer;
@@ -232,7 +232,7 @@
 
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.14em;
 }
@@ -259,7 +259,7 @@
 .whatsapp-hero-caption span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.15em;
 }
@@ -292,7 +292,7 @@
 
   color: #8c948e;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.15em;
@@ -356,7 +356,7 @@
 
   color: rgba(246, 241, 234, 0.6);
 
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.9;
 }
 
@@ -422,7 +422,7 @@
 .whatsapp-option-top > span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -455,7 +455,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -473,7 +473,7 @@
   color: #375844;
   background: transparent;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 
   cursor: pointer;
@@ -544,7 +544,7 @@
   color: #375844;
   background: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.12em;
@@ -591,7 +591,7 @@
 .whatsapp-step > span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -610,7 +610,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -660,7 +660,7 @@
 .whatsapp-contact-copy > span {
   color: #c86836;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.15em;
@@ -685,7 +685,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -703,7 +703,7 @@
   color: #f6f1ea;
   background: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   cursor: pointer;
@@ -738,7 +738,7 @@
 .whatsapp-cta-inner > div > span {
   color: rgba(246, 241, 234, 0.7);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.16em;
@@ -775,7 +775,7 @@
   color: #375844;
   background: #f6f1ea;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   cursor: pointer;
@@ -860,7 +860,7 @@
   }
 
   .whatsapp-scroll {
-    font-size: 5px;
+    font-size: 11px;
   }
 
 

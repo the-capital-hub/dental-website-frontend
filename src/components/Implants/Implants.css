@@ -40,7 +40,7 @@
 
   color: #efa47c;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -97,7 +97,7 @@
 
   color: rgba(246,241,234,.62);
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -183,7 +183,7 @@
 .implants-image-copy span {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -237,7 +237,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -269,7 +269,7 @@
 
   color: #737c75;
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.75;
 }
@@ -317,7 +317,7 @@
 
   color: #56635b;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 600;
 }
@@ -344,7 +344,7 @@
 
   background: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -406,7 +406,7 @@
 .implants-process-heading > span {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -482,7 +482,7 @@
 .implant-step-top span {
   color: #efa47c;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 }
@@ -512,7 +512,7 @@
 
   color: rgba(246,241,234,.53);
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.65;
 }
@@ -547,7 +547,7 @@
 
   color: rgba(246,241,234,.52);
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -567,7 +567,7 @@
 
   color: #efa47c;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -617,7 +617,7 @@
   .implants-label {
     margin-bottom: 28px;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .implants-heading {
@@ -633,7 +633,7 @@
 
     margin-top: 20px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .implants-feature {

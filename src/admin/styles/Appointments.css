@@ -31,7 +31,7 @@
 
   color: #c86836;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -68,7 +68,7 @@
 
   color: #8b938d;
 
-  font-size: 8px;
+  font-size: 11px;
 }
 
 
@@ -97,7 +97,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -190,7 +190,7 @@
 .appointments-summary-card span {
   color: #929b95;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 700;
 }
@@ -296,7 +296,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .appointments-search input::placeholder {
@@ -359,7 +359,7 @@
 }
 
 .appointments-filter > span {
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 700;
 }
@@ -380,7 +380,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -419,7 +419,7 @@
 
   color: #a0a7a2;
 
-  font-size: 5px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -437,7 +437,7 @@
 
   color: #66746c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   vertical-align: middle;
 }
@@ -462,7 +462,7 @@
 }
 
 .appointment-time strong {
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -495,7 +495,7 @@
 
   background: #eee7de;
 
-  font-size: 8px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -511,7 +511,7 @@
 .appointment-patient strong {
   color: #375844;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -523,7 +523,7 @@
 
   color: #9ba29d;
 
-  font-size: 5px;
+  font-size: 11px;
 
   white-space: nowrap;
 }
@@ -536,7 +536,7 @@
 .appointment-treatment {
   color: #627168;
 
-  font-size: 6px;
+  font-size: 11px;
 
   white-space: nowrap;
 }
@@ -544,7 +544,7 @@
 .appointment-doctor {
   color: #7e8982;
 
-  font-size: 6px;
+  font-size: 11px;
 
   white-space: nowrap;
 }
@@ -567,7 +567,7 @@
 
   font-family: inherit;
 
-  font-size: 5px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -675,7 +675,7 @@
 
   color: #9ba29d;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -745,7 +745,7 @@
 .appointment-modal-header span {
   color: #c86836;
 
-  font-size: 5px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -809,7 +809,7 @@
 .appointment-form-field label {
   color: #375844;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -834,7 +834,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .appointment-form-field input:focus,
@@ -876,7 +876,7 @@
 
   font-family: inherit;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -1019,7 +1019,7 @@
   .appointment-mobile-details span {
     color: #9ba29d;
 
-    font-size: 5px;
+    font-size: 11px;
 
     text-transform: uppercase;
   }
@@ -1027,7 +1027,7 @@
   .appointment-mobile-details strong {
     color: #375844;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .appointment-mobile-delete {
@@ -1047,7 +1047,7 @@
 
     font-family: inherit;
 
-    font-size: 6px;
+    font-size: 11px;
 
     font-weight: 800;
 
@@ -1085,7 +1085,7 @@
   }
 
   .appointments-summary-card span {
-    font-size: 5px;
+    font-size: 11px;
   }
 
   .appointment-modal {
@@ -1168,7 +1168,7 @@
 
   margin-bottom: 6px;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.14em;
 

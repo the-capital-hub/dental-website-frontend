@@ -25,7 +25,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: .17em;
 }
@@ -91,7 +91,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -141,7 +141,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -234,7 +234,7 @@
 .faq-hero-card span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -267,7 +267,7 @@
 .faq-hero-caption span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -303,7 +303,7 @@
 
   color: #8c948e;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -370,7 +370,7 @@
 
   color: rgba(246,241,234,.58);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.9;
 }
@@ -435,7 +435,7 @@
 .faq-group-title > span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -495,7 +495,7 @@
 .faq-question-number {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -556,7 +556,7 @@
 
   color: #7a837d;
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.9;
 }
@@ -611,7 +611,7 @@
 
   color: #7a837d;
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -627,7 +627,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -715,7 +715,7 @@
 
   color: #7a837d;
 
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .faq-ivy-online {
@@ -729,7 +729,7 @@
 
   color: #65736b !important;
 
-  font-size: 5px !important;
+  font-size: 11px !important;
 
   font-weight: 800;
 }
@@ -758,7 +758,7 @@
 
   border-radius: 12px;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.6;
 }
@@ -798,7 +798,7 @@
 
   background: #f6f1ea;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .faq-ivy-input svg {
@@ -880,7 +880,7 @@
 .faq-link-card > span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -906,7 +906,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -946,7 +946,7 @@
 .faq-cta-inner > div > span {
   color: rgba(246,241,234,.7);
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -988,7 +988,7 @@
 
   background: #f6f1ea;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -1067,7 +1067,7 @@
   }
 
   .faq-hero-content > p {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .faq-hero-visual {
@@ -1077,7 +1077,7 @@
   }
 
   .faq-scroll {
-    font-size: 5px;
+    font-size: 11px;
   }
 
 
@@ -1124,7 +1124,7 @@
   }
 
   .faq-answer p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
 

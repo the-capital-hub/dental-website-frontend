@@ -36,7 +36,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -112,7 +112,7 @@
 
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -146,7 +146,7 @@
 
   color: rgba(246,241,234,.62);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.75;
 }
@@ -194,7 +194,7 @@
 
   color: rgba(246,241,234,.78);
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 
@@ -228,7 +228,7 @@
 
   border-radius: 100px;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -370,7 +370,7 @@
 .emergency-badge span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -378,7 +378,7 @@
 }
 
 .emergency-badge strong {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 
@@ -402,7 +402,7 @@
 .emergency-image-text span {
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -472,7 +472,7 @@
 }
 
 .emergency-strip strong {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .emergency-strip p {
@@ -480,7 +480,7 @@
 
   color: #7b847d;
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .emergency-strip > a {
@@ -492,7 +492,7 @@
 
   color: #c86836;
 
-  font-size: 9px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -509,7 +509,7 @@
 
   color: #969d98;
 
-  font-size: 7px;
+  font-size: 11px;
 
   line-height: 1.6;
 
@@ -551,7 +551,7 @@
   .emergency-label {
     margin-bottom: 40px;
 
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .emergency-main {
@@ -571,7 +571,7 @@
   }
 
   .emergency-content > p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .emergency-image {

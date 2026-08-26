@@ -15,7 +15,7 @@
   align-items: center;
   gap: 8px;
   color: #c86836;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .18em;
 }
@@ -56,7 +56,7 @@
 .ivy-title-row p {
   margin: 6px 0 0;
   color: #8b938d;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .ivy-online-button {
@@ -68,7 +68,7 @@
   border: none;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -166,7 +166,7 @@
 
 .ivy-status-label {
   color: #efa47c;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .16em;
 }
@@ -181,7 +181,7 @@
   max-width: 500px;
   margin: 7px 0 0;
   color: rgba(246,241,234,.58);
-  font-size: 6px;
+  font-size: 11px;
   line-height: 1.7;
 }
 
@@ -203,7 +203,7 @@
 
 .ivy-status-stats span {
   color: rgba(246,241,234,.5);
-  font-size: 5px;
+  font-size: 11px;
 }
 
 /* SUMMARY */
@@ -243,7 +243,7 @@
 
 .ivy-summary-card span {
   color: #929b95;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .ivy-summary-card strong {
@@ -271,7 +271,7 @@
 
 .ivy-panel-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .16em;
 }
@@ -304,7 +304,7 @@
   outline: none;
   background: transparent;
   color: #294938;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .ivy-search button {
@@ -346,7 +346,7 @@
   border-radius: 11px;
   color: #294938;
   background: #efa47c;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -363,19 +363,19 @@
 .ivy-conversation-name-row h4 {
   margin: 0;
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .ivy-conversation-name-row span {
   color: #a0a7a2;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 .ivy-conversation-main p {
   margin: 5px 0 7px;
   overflow: hidden;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -390,7 +390,7 @@
 .ivy-conversation-status {
   padding: 4px 7px;
   border-radius: 100px;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -422,7 +422,7 @@
 }
 
 .ivy-conversation-right span {
-  font-size: 5px;
+  font-size: 11px;
 }
 
 /* EMPTY */
@@ -454,7 +454,7 @@
 .ivy-empty p {
   margin: 5px 0 0;
   color: #9ba29d;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 /* MODAL */
@@ -490,7 +490,7 @@
 
 .ivy-modal-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -528,7 +528,7 @@
   border-radius: 13px;
   color: #294938;
   background: #efa47c;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -541,7 +541,7 @@
 .ivy-modal-profile p {
   margin: 4px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .ivy-message-box {
@@ -569,7 +569,7 @@
 
 .ivy-message-label {
   margin-bottom: 5px;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -584,7 +584,7 @@
 .ivy-message p {
   margin: 0;
   color: #66746c;
-  font-size: 6px;
+  font-size: 11px;
   line-height: 1.7;
 }
 
@@ -610,12 +610,12 @@
 
 .ivy-modal-info span {
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 .ivy-modal-info strong {
   color: #375844;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .ivy-modal-footer {
@@ -636,7 +636,7 @@
   padding: 0 13px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   text-decoration: none;
   cursor: pointer;

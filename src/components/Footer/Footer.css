@@ -60,7 +60,7 @@
 
   color: #efa47c;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.18em;
@@ -117,7 +117,7 @@
 
   background: #f6f1ea;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
 
   text-decoration: none;
@@ -227,7 +227,7 @@
 
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.28em;
@@ -238,7 +238,7 @@
 
   color: rgba(246, 241, 234, 0.52);
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -303,13 +303,13 @@
 }
 
 .footer-ivy-badge strong {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .footer-ivy-badge small {
   color: rgba(246, 241, 234, 0.42);
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -327,7 +327,7 @@
 
   color: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.18em;
@@ -351,7 +351,7 @@
 
   color: rgba(246, 241, 234, 0.62);
 
-  font-size: 9px;
+  font-size: 12px;
 
   text-decoration: none;
 
@@ -393,7 +393,7 @@
 
   color: #f6f1ea;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
 
   text-decoration: none;
@@ -430,7 +430,7 @@
 .footer-contact-item span {
   color: rgba(246, 241, 234, 0.35);
 
-  font-size: 6px;
+  font-size: 11px;
 
   text-transform: uppercase;
 
@@ -443,7 +443,7 @@
 
   color: rgba(246, 241, 234, 0.68);
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.5;
 
@@ -477,7 +477,7 @@
 
   color: rgba(246, 241, 234, 0.34);
 
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .footer-bottom-links {
@@ -490,7 +490,7 @@
 .footer-bottom-links a {
   color: rgba(246, 241, 234, 0.45);
 
-  font-size: 7px;
+  font-size: 11px;
 
   text-decoration: none;
 
@@ -579,7 +579,7 @@
   }
 
   .footer-cta p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .footer-logo-text strong {

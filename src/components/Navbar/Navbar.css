@@ -119,7 +119,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.30em;
@@ -207,7 +207,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
 
   text-decoration: none;
@@ -421,7 +421,7 @@
 
   font-family: "Manrope", sans-serif;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.10em;
@@ -512,19 +512,19 @@
   }
 
   .navbar-links a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .navbar-admin {
     padding: 0 10px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .navbar-cta {
     padding-left: 13px;
 
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -540,7 +540,7 @@
   }
 
   .navbar-links a {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .navbar-admin {
@@ -548,7 +548,7 @@
   }
 
   .navbar-cta {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -589,7 +589,7 @@
   .navbar-logo-text small {
     margin-top: 4px;
 
-    font-size: 5px;
+    font-size: 11px;
   }
 
   .navbar-links,

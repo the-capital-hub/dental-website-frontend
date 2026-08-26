@@ -42,7 +42,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -103,7 +103,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -142,7 +142,7 @@
 
   color: #707a73;
 
-  font-size: 10px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -163,7 +163,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -275,7 +275,7 @@
 
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -316,7 +316,7 @@
 .about-hero-caption span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -357,7 +357,7 @@
 
   color: #8c948e;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -419,7 +419,7 @@
   }
 
   .about-hero-label {
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .about-hero-main {
@@ -443,7 +443,7 @@
   .about-hero-content > p {
     max-width: 100%;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .about-hero-visual {
@@ -467,7 +467,7 @@
   }
 
   .about-hero-bottom {
-    font-size: 5px;
+    font-size: 11px;
   }
 
 }

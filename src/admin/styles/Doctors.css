@@ -24,7 +24,7 @@
   align-items: center;
   gap: 8px;
   color: #c86836;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.18em;
 }
@@ -48,7 +48,7 @@
 .doctors-page-header p {
   margin: 9px 0 0;
   color: #8b938d;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 
@@ -67,7 +67,7 @@
   color: #f6f1ea;
   background: #294938;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
   transition: 0.25s ease;
@@ -127,7 +127,7 @@
 
 .doctors-summary-card span {
   color: #929b95;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 700;
 }
 
@@ -172,7 +172,7 @@
   background: transparent;
   color: #294938;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .doctors-search input::placeholder {
@@ -242,7 +242,7 @@
   border: none;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -291,7 +291,7 @@
 .doctor-info p {
   margin: 6px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -315,7 +315,7 @@
 .doctor-meta span {
   display: block;
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.1em;
 }
@@ -324,7 +324,7 @@
   display: block;
   margin-top: 5px;
   color: #375844;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 
@@ -344,7 +344,7 @@
   align-items: center;
   gap: 7px;
   color: #7e8982;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .doctor-schedule svg {
@@ -372,7 +372,7 @@
   color: #c86836;
   background: transparent;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -410,7 +410,7 @@
 .doctors-empty p {
   margin: 5px 0 0;
   color: #9ba29d;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -449,7 +449,7 @@
 
 .doctor-modal-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.16em;
 }
@@ -509,7 +509,7 @@
 .doctor-profile p {
   margin: 5px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -535,13 +535,13 @@
 
 .doctor-profile-grid span {
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
   text-transform: uppercase;
 }
 
 .doctor-profile-grid strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   word-break: break-word;
 }
 
@@ -568,7 +568,7 @@
   padding: 0 13px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   text-decoration: none;
   cursor: pointer;
@@ -608,7 +608,7 @@
 
 .doctor-form-field label {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -622,7 +622,7 @@
   color: #294938;
   background: #eee7de;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .doctor-form-field input:focus {
@@ -650,7 +650,7 @@
   padding: 0 14px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }

@@ -25,7 +25,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.17em;
 }
@@ -77,7 +77,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.14em;
 }
@@ -118,7 +118,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   text-decoration: none;
 }
@@ -208,7 +208,7 @@
 .pricing-hero-card span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.13em;
 }
@@ -237,7 +237,7 @@
 .pricing-hero-caption span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.15em;
 }
@@ -269,7 +269,7 @@
 
   color: #8c948e;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.15em;
 }
@@ -334,7 +334,7 @@
 
   color: rgba(246, 241, 234, 0.58);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.9;
 }
@@ -398,7 +398,7 @@
 .pricing-point-number {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -436,7 +436,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -497,7 +497,7 @@
 .pricing-image-caption span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -547,7 +547,7 @@
 
   color: #7a837d;
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -577,7 +577,7 @@
 }
 
 .pricing-check-list span {
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 700;
 }
@@ -628,7 +628,7 @@
 
   color: #7a837d;
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -682,7 +682,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -723,7 +723,7 @@
 .pricing-insurance-inner span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -749,7 +749,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -780,7 +780,7 @@
 .pricing-cta-inner > div > span {
   color: rgba(246, 241, 234, 0.7);
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -822,7 +822,7 @@
 
   background: #f6f1ea;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -915,7 +915,7 @@
   }
 
   .pricing-scroll {
-    font-size: 5px;
+    font-size: 11px;
   }
 
 

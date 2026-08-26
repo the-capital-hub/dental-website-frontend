@@ -89,7 +89,7 @@
 
   color: var(--orange);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 
   line-height: 1;
@@ -157,7 +157,7 @@
 
   color: var(--orange);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 
   line-height: 1;
@@ -191,7 +191,7 @@
 
   color: var(--muted);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -206,7 +206,7 @@
 
   color: var(--green);
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   text-decoration: none;
@@ -308,7 +308,7 @@
 .about-floating-card span {
   color: var(--orange-soft);
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.14em;
@@ -345,7 +345,7 @@
 .about-image-caption span {
   color: var(--orange-soft);
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.15em;
@@ -381,7 +381,7 @@
 
   color: #89918b;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.14em;
@@ -464,7 +464,7 @@
 .about-image-number p {
   margin: 0;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.14em;
@@ -485,7 +485,7 @@
 
   color: var(--orange);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 
   line-height: 1;
@@ -534,7 +534,7 @@
 
   color: var(--muted);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -555,14 +555,14 @@
 .about-signature span {
   color: var(--orange);
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.14em;
 }
 
 .about-signature strong {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 
@@ -611,7 +611,7 @@
 
   color: var(--muted);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -657,7 +657,7 @@
 .about-value-top > span {
   color: var(--orange);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -692,7 +692,7 @@
 
   color: var(--muted);
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -766,7 +766,7 @@
 .about-story-year {
   color: var(--orange-soft);
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.16em;
@@ -789,7 +789,7 @@
 
   color: rgba(248, 243, 237, 0.6);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -832,7 +832,7 @@
 .about-story-image-caption span {
   color: var(--orange-soft);
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 
   letter-spacing: 0.14em;
@@ -900,7 +900,7 @@
 
   color: var(--muted);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -938,7 +938,7 @@
 .about-difference-item > span {
   color: var(--orange);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -1011,7 +1011,7 @@
 
   color: var(--muted);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -1068,7 +1068,7 @@
 
   color: var(--white);
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -1093,7 +1093,7 @@
 
   color: #7e8780;
 
-  font-size: 7px;
+  font-size: 11px;
 
   line-height: 1.4;
 }
@@ -1150,7 +1150,7 @@
 
   color: var(--muted);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -1178,7 +1178,7 @@
 }
 
 .about-tech-points span {
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 700;
 
@@ -1234,7 +1234,7 @@
 
   color: var(--orange-soft);
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -1246,7 +1246,7 @@
 
   margin-top: 4px;
 
-  font-size: 9px;
+  font-size: 12px;
 }
 
 
@@ -1302,7 +1302,7 @@
 
   color: rgba(248, 243, 237, 0.6);
 
-  font-size: 9px;
+  font-size: 12px;
 
   line-height: 1.7;
 }
@@ -1319,7 +1319,7 @@
 .about-promise-signature span {
   color: var(--orange-soft);
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -1327,7 +1327,7 @@
 }
 
 .about-promise-signature strong {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 
@@ -1354,7 +1354,7 @@
 .about-cta-inner > div > span {
   color: rgba(248, 243, 237, 0.72);
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -1394,7 +1394,7 @@
 
   background: var(--white);
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -1527,7 +1527,7 @@
   .about-hero-content > p {
     margin-top: 18px;
 
-    font-size: 9px;
+    font-size: 12px;
 
     line-height: 1.7;
   }

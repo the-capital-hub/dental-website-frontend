@@ -25,7 +25,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: .17em;
 }
@@ -82,7 +82,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .14em;
 }
@@ -123,7 +123,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   text-decoration: none;
 }
@@ -199,7 +199,7 @@
 .contact-image-card span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .15em;
 }
@@ -228,7 +228,7 @@
 
   color: #8c948e;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .15em;
 }
@@ -285,7 +285,7 @@
 
   color: #7a837d;
 
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -316,7 +316,7 @@
 
   color: #65736b;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .13em;
 }
@@ -340,7 +340,7 @@
 
   font-family: inherit;
 
-  font-size: 9px;
+  font-size: 12px;
 
   transition:
     border-color .25s ease,
@@ -400,7 +400,7 @@
 
   background: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -436,7 +436,7 @@
 
   color: #8b938e;
 
-  font-size: 6px;
+  font-size: 11px;
 
   line-height: 1.6;
 
@@ -493,7 +493,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -511,7 +511,7 @@
 
   background: #375844;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -570,7 +570,7 @@
 .contact-info-image-text span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .14em;
 }
@@ -643,7 +643,7 @@
 .contact-detail span {
   color: #c86836;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -655,7 +655,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.5;
 }
@@ -725,7 +725,7 @@
 .contact-process-card > span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 }
@@ -765,7 +765,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
 
   line-height: 1.8;
 }
@@ -816,7 +816,7 @@
 .contact-emergency-inner > div:nth-child(2) > span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -850,7 +850,7 @@
 
   color: rgba(246,241,234,.58);
 
-  font-size: 7px;
+  font-size: 11px;
 
   line-height: 1.7;
 }
@@ -870,7 +870,7 @@
 
   background: #f6f1ea;
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -897,7 +897,7 @@
 .contact-final-inner > span {
   color: rgba(246,241,234,.7);
 
-  font-size: 7px;
+  font-size: 11px;
 
   font-weight: 800;
 
@@ -941,7 +941,7 @@
 
   background: #f6f1ea;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 800;
 
@@ -1015,7 +1015,7 @@
   }
 
   .contact-hero-content > p {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .contact-hero-image {
@@ -1024,7 +1024,7 @@
   }
 
   .contact-scroll {
-    font-size: 5px;
+    font-size: 11px;
   }
 
 

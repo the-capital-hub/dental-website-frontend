@@ -24,7 +24,7 @@
   align-items: center;
   gap: 8px;
   color: #c86836;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.18em;
 }
@@ -49,7 +49,7 @@
 .patients-page-header p {
   margin: 9px 0 0;
   color: #8b938d;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 
@@ -68,7 +68,7 @@
   color: #f6f1ea;
   background: #294938;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
   transition:
@@ -134,7 +134,7 @@
 
 .patients-summary-card span {
   color: #929b95;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 700;
 }
 
@@ -205,7 +205,7 @@
   color: #294938;
   background: transparent;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .patients-search input::placeholder {
@@ -250,7 +250,7 @@
 }
 
 .patients-filter > span {
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 700;
 }
 
@@ -263,7 +263,7 @@
   color: #294938;
   background: transparent;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -293,7 +293,7 @@
 .patients-table th {
   padding: 0 10px 10px;
   color: #a0a7a2;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-align: left;
@@ -327,7 +327,7 @@
   border-radius: 50%;
   color: #294938;
   background: #eee7de;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -339,7 +339,7 @@
 
 .patient-table-name strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   white-space: nowrap;
 }
@@ -347,7 +347,7 @@
 .patient-table-name span {
   margin-top: 3px;
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 
@@ -366,7 +366,7 @@
   align-items: center;
   gap: 5px;
   color: #7e8982;
-  font-size: 5px;
+  font-size: 11px;
   white-space: nowrap;
 }
 
@@ -383,7 +383,7 @@
 .patient-treatment,
 .patient-last-visit {
   color: #69766f;
-  font-size: 6px;
+  font-size: 11px;
   white-space: nowrap;
 }
 
@@ -404,7 +404,7 @@
   border: none;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -448,7 +448,7 @@
   color: #c86836;
   background: transparent;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -490,7 +490,7 @@
 .patients-empty p {
   margin: 5px 0 0;
   color: #9ba29d;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -541,7 +541,7 @@
 
 .patient-modal-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.16em;
 }
@@ -604,7 +604,7 @@
 .patient-profile p {
   margin: 5px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -631,13 +631,13 @@
 
 .patient-profile-grid span {
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
   text-transform: uppercase;
 }
 
 .patient-profile-grid strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   word-break: break-word;
 }
 
@@ -664,7 +664,7 @@
   padding: 0 13px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   text-decoration: none;
   cursor: pointer;
@@ -700,7 +700,7 @@
 
 .patient-form-field label {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -715,7 +715,7 @@
   color: #294938;
   background: #eee7de;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .patient-form-field input:focus,
@@ -746,7 +746,7 @@
   padding: 0 14px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -845,7 +845,7 @@
     align-items: center;
     gap: 6px;
     color: #7e8982;
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .patient-mobile-contact svg {
@@ -867,13 +867,13 @@
 
   .patient-mobile-details span {
     color: #9ba29d;
-    font-size: 5px;
+    font-size: 11px;
     text-transform: uppercase;
   }
 
   .patient-mobile-details strong {
     color: #375844;
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .patient-mobile-view {
@@ -888,7 +888,7 @@
     color: #c86836;
     background: #f9f6f1;
     font-family: inherit;
-    font-size: 6px;
+    font-size: 11px;
     font-weight: 800;
     cursor: pointer;
   }
@@ -917,7 +917,7 @@
   }
 
   .patients-summary-card span {
-    font-size: 5px;
+    font-size: 11px;
   }
 
   .patient-modal {
@@ -963,7 +963,7 @@
 
 .patient-history-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.16em;
 }
@@ -991,7 +991,7 @@
   border-radius: 50px;
   color: #294938;
   background: #eee7de;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -1057,13 +1057,13 @@
 
 .patient-history-date strong {
   color: #375844;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
 }
 
 .patient-history-date span {
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 
@@ -1081,7 +1081,7 @@
 .patient-history-treatment strong {
   overflow: hidden;
   color: #375844;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1090,7 +1090,7 @@
 .patient-history-treatment span {
   overflow: hidden;
   color: #9ba29d;
-  font-size: 5px;
+  font-size: 11px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -1107,7 +1107,7 @@
   min-width: 62px;
   padding: 6px 8px;
   border-radius: 100px;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   white-space: nowrap;
 }
@@ -1169,7 +1169,7 @@
 .patient-history-empty p {
   margin: 0;
   color: #9ba29d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -1236,7 +1236,7 @@
 
   .patient-history-date strong,
   .patient-history-treatment strong {
-    font-size: 6px;
+    font-size: 11px;
   }
 
 }

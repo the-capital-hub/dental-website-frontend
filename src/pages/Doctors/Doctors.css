@@ -25,7 +25,7 @@
 
   color: #c86836;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: .17em;
 }
@@ -78,7 +78,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .14em;
 }
@@ -118,7 +118,7 @@
 
   color: #375844;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
   text-decoration: none;
 }
@@ -207,7 +207,7 @@
 .doctors-hero-card span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .13em;
 }
@@ -237,7 +237,7 @@
 .doctors-hero-caption span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .15em;
 }
@@ -264,7 +264,7 @@
 
   color: #8c948e;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .15em;
 }
@@ -324,7 +324,7 @@
 
   color: rgba(246,241,234,.58);
 
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.9;
 }
 
@@ -418,7 +418,7 @@
   color: #375844;
   background: #efa47c;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -438,7 +438,7 @@
 
   backdrop-filter: blur(8px);
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .1em;
 }
@@ -450,7 +450,7 @@
 .doctor-role {
   color: #c86836;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .15em;
 }
@@ -471,7 +471,7 @@
 
   color: #65736b;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 700;
 }
 
@@ -482,7 +482,7 @@
 
   color: #7a837d;
 
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -498,7 +498,7 @@
 }
 
 .doctor-profile-bottom > span {
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .13em;
 }
@@ -574,7 +574,7 @@
 .doctors-approach-badge span {
   color: #efa47c;
 
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .14em;
 }
@@ -644,14 +644,14 @@
 .doctors-approach-points span {
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
 .doctors-approach-points p {
   margin: 0;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -737,7 +737,7 @@
 
   color: #c86836;
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -757,7 +757,7 @@
 
   color: #7b837d;
 
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -805,7 +805,7 @@
 
   color: #7a837d;
 
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -832,7 +832,7 @@
 }
 
 .doctors-standard-list span {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -862,7 +862,7 @@
 .doctors-cta-inner > div > span {
   color: rgba(246,241,234,.7);
 
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .16em;
 }
@@ -897,7 +897,7 @@
   color: #375844;
   background: #f6f1ea;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   text-decoration: none;
@@ -969,7 +969,7 @@
   }
 
   .doctors-hero-content > p {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .doctors-hero-visual {
@@ -978,7 +978,7 @@
   }
 
   .doctors-scroll {
-    font-size: 5px;
+    font-size: 11px;
   }
 
 

@@ -15,7 +15,7 @@
   align-items: center;
   gap: 8px;
   color: #c86836;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .18em;
 }
@@ -39,7 +39,7 @@
 .settings-header p {
   margin: 9px 0 0;
   color: #8b938d;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .settings-save-button {
@@ -53,7 +53,7 @@
   color: #f6f1ea;
   background: #294938;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -100,7 +100,7 @@
   color: #7d8881;
   background: transparent;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   text-align: left;
   cursor: pointer;
@@ -167,7 +167,7 @@
 .settings-section-header p {
   margin: 5px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -187,7 +187,7 @@
 
 .settings-field label {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -201,7 +201,7 @@
   color: #294938;
   background: #eee7de;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   resize: vertical;
 }
 
@@ -277,12 +277,12 @@
 
 .settings-profile-card strong {
   color: #294938;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .settings-profile-card span {
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -307,12 +307,12 @@
 
 .ivy-main-toggle strong {
   color: #294938;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .ivy-main-toggle span {
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 
@@ -342,12 +342,12 @@
 
 .settings-option strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .settings-option span {
   color: #929b95;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 

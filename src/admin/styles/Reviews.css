@@ -15,7 +15,7 @@
   align-items: center;
   gap: 8px;
   color: #c86836;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .18em;
 }
@@ -39,7 +39,7 @@
 .reviews-page-header p {
   margin: 9px 0 0;
   color: #8b938d;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .reviews-add-button {
@@ -53,7 +53,7 @@
   color: #f6f1ea;
   background: #294938;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -100,7 +100,7 @@
 
 .reviews-summary-card span {
   color: #929b95;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .reviews-summary-card strong {
@@ -143,7 +143,7 @@
   color: #294938;
   background: transparent;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .reviews-search button {
@@ -167,7 +167,7 @@
   color: #7e8982;
   background: transparent;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -220,27 +220,27 @@
   border-radius: 11px;
   color: #294938;
   background: #efa47c;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 800;
 }
 
 .review-user h3 {
   margin: 0;
   color: #375844;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .review-user span {
   display: block;
   margin-top: 3px;
   color: #a0a7a2;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 .review-status {
   padding: 5px 8px;
   border-radius: 100px;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -270,14 +270,14 @@
 
 .review-rating-row > span {
   color: #8b938d;
-  font-size: 5px;
+  font-size: 11px;
 }
 
 .review-text {
   min-height: 55px;
   margin: 12px 0 0;
   color: #69766f;
-  font-size: 7px;
+  font-size: 11px;
   line-height: 1.8;
 }
 
@@ -296,7 +296,7 @@
   color: #c86836;
   background: transparent;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -323,7 +323,7 @@
 .reviews-empty p {
   margin: 5px 0 0;
   color: #9ba29d;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 
@@ -360,7 +360,7 @@
 
 .review-modal-header span {
   color: #c86836;
-  font-size: 5px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: .15em;
 }
@@ -411,7 +411,7 @@
 .review-modal-user p {
   margin: 4px 0 0;
   color: #8b938d;
-  font-size: 6px;
+  font-size: 11px;
 }
 
 .review-modal-rating {
@@ -423,7 +423,7 @@
 
 .review-modal-rating strong {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .review-full-text {
@@ -432,7 +432,7 @@
   border-radius: 12px;
   color: #69766f;
   background: #eee7de;
-  font-size: 7px;
+  font-size: 11px;
   line-height: 1.9;
 }
 
@@ -453,7 +453,7 @@
   padding: 0 12px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 6px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -493,7 +493,7 @@
 
 .review-form-field label {
   color: #375844;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -508,7 +508,7 @@
   color: #294938;
   background: #eee7de;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   resize: vertical;
 }
 
@@ -538,7 +538,7 @@
   padding: 0 13px;
   border-radius: 100px;
   font-family: inherit;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
