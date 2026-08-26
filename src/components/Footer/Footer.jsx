@@ -46,9 +46,9 @@ const Footer = () => {
 
           <div className="footer-cta-content">
 
-            <span className="footer-eyebrow">
+            
               YOUR SMILE, OUR PRIORITY
-            </span>
+            
 
             <h2>
               Ready to take care

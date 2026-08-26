@@ -16,6 +16,8 @@ import "./PatientTestimonials.css";
 const testimonials = [
   {
     number: "01",
+    rating: "4.8",
+ 
     name: "Sneha R.",
     treatment: "General Dentistry",
     quote:
@@ -25,6 +27,8 @@ const testimonials = [
   },
   {
     number: "02",
+        rating: "4.3",
+ 
     name: "Rahul M.",
     treatment: "Dental Care",
     quote:
@@ -34,6 +38,8 @@ const testimonials = [
   },
   {
     number: "03",
+        rating: "4.6",
+ 
     name: "Priya S.",
     treatment: "Cosmetic Dentistry",
     quote:
@@ -43,6 +49,8 @@ const testimonials = [
   },
   {
     number: "04",
+        rating: "4.5",
+ 
     name: "Arjun K.",
     treatment: "Dental Implants",
     quote:
@@ -96,10 +104,7 @@ const PatientTestimonials = () => {
                 transition={{ duration: 0.9 }}
               >
 
-                <div className="stories-kicker">
-                  <Heart size={15} />
-                  <span>REAL PATIENT EXPERIENCES</span>
-                </div>
+                
 
                 <h1>
                   Real stories.
@@ -517,6 +522,13 @@ const PatientTestimonials = () => {
                           fill="currentColor"
                         />
                       ))}
+
+                      <strong style={{textAlign:"end"}}>
+    {testimonial.rating}
+  </strong>
+
+  
+
 
                     </div>
 

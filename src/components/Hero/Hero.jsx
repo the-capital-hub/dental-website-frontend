@@ -76,7 +76,7 @@ const Hero = () => {
               duration: 0.6,
             }}
           >
-            <span />
+            
 
             MODERN DENTISTRY
           </motion.div>

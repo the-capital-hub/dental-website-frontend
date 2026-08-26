@@ -14,24 +14,17 @@ import { Link } from "react-router-dom";
 ===================================================== */
 
 const services = [
+  
   {
     number: "01",
-    title: "General Dentistry",
+    title: "Cosmetic Dentistry",
     description:
-      "Preventive and routine care focused on keeping your oral health in check.",
+      "Thoughtful treatments designed to enhance your smile naturally.",
     image:
       "https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=900&q=85",
   },
   {
     number: "02",
-    title: "Cosmetic Dentistry",
-    description:
-      "Thoughtful treatments designed to enhance your smile naturally.",
-    image:
-      "https://images.unsplash.com/photo-1606265752439-1f18756aa2b0?auto=format&fit=crop&w=900&q=85",
-  },
-  {
-    number: "03",
     title: "Dental Implants",
     description:
       "Natural-looking tooth replacement designed for comfort and confidence.",
@@ -39,7 +32,7 @@ const services = [
       "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=900&q=85",
   },
   {
-    number: "04",
+    number: "03",
     title: "Root Canal Treatment",
     description:
       "Modern care that relieves discomfort while preserving your natural tooth.",
@@ -47,7 +40,7 @@ const services = [
       "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=85",
   },
   {
-    number: "05",
+    number: "04",
     title: "Crowns & Bridges",
     description:
       "Custom restorations designed for function, comfort and appearance.",
@@ -55,7 +48,7 @@ const services = [
       "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=900&q=85",
   },
   {
-    number: "06",
+    number: "05",
     title: "Clear Aligners",
     description:
       "A discreet modern approach to creating a straighter, healthier smile.",

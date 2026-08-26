@@ -36,6 +36,7 @@ import IvyConversations from "./admin/pages/IvyConversations";
 import Reviews from "./admin/pages/Reviews";
 import ServicesA from "./admin/pages/Services";
 import Settings from "./admin/pages/Settings";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 // =====================================================
 // PROTECTED ADMIN ROUTE
@@ -89,6 +90,7 @@ const PublicIvy = () => {
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop />
 
       <Routes>
 

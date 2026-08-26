@@ -213,14 +213,14 @@ const Ivy = () => {
             </div>
 
 
-            <span className="ivy-eyebrow">
+            
               AI RECEPTIONIST
-            </span>
+            
 
             <h3>
               Meet
-              <br />
-              <em>Ivy.</em>
+            
+              <em> Ivy.</em>
             </h3>
 
             <p>

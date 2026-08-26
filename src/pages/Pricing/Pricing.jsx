@@ -441,7 +441,7 @@ const Pricing = () => {
 
               <p>
                 Our team can discuss available payment and
-                insurance-related options with you. Final
+                insurance related options with you. Final
                 payment options should be confirmed with
                 the clinic.
               </p>

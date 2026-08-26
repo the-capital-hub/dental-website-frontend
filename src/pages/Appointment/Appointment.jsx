@@ -138,7 +138,7 @@ const Appointment = () => {
 
               <span className="appointment-eyebrow">
 
-                <span className="appointment-eyebrow-line" />
+                
 
                 BOOK YOUR VISIT
 
@@ -236,9 +236,9 @@ const Appointment = () => {
 
             <div className="appointment-info">
 
-              <span className="appointment-section-label">
+              
                 APPOINTMENT REQUEST
-              </span>
+            
 
 
               <h2>
@@ -785,13 +785,13 @@ const Appointment = () => {
                   disabled={loading}
                 >
 
-                  <span>
+                  
 
                     {loading
                       ? "Sending Request..."
                       : "Request Appointment"}
 
-                  </span>
+                  
 
 
                   

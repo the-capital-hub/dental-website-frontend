@@ -55,7 +55,7 @@ const treatments = [
     text:
       "Care focused on treating infection inside the tooth while preserving as much of the natural tooth as possible.",
     image:
-      "https://images.unsplash.com/photo-1606265752439-1f18756aa2a5?auto=format&fit=crop&w=1000&q=90",
+      "https://files.cdn-files-a.com/uploads/8877709/2000_665564ac9d57c.jpg",
   },
   {
     number: "05",
@@ -73,7 +73,7 @@ const treatments = [
     text:
       "A discreet approach to gradually improving tooth alignment with a treatment plan tailored to your smile.",
     image:
-      "https://images.unsplash.com/photo-1581585099406-1a3d8f2a5c1a?auto=format&fit=crop&w=1000&q=90",
+      "https://static.multiesthetique.fr/site/company/62/365735/images/792952/792952_ci.jpg",
   },
   {
     number: "07",
@@ -401,13 +401,6 @@ const Services = () => {
 
               <div>
 
-                <div className="services-label light-label">
-
-                  <span>03</span>
-                  <i />
-                  <p>OUR TREATMENTS</p>
-
-                </div>
 
                 <h2>
                   Care that
@@ -587,13 +580,7 @@ const Services = () => {
 
               <div className="services-trust-content">
 
-                <div className="services-label">
-
-                  <span>06</span>
-                  <i />
-                  <p>WHY PATIENTS CHOOSE US</p>
-
-                </div>
+                
 
                 <h2>
                   More than

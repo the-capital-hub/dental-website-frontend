@@ -270,7 +270,7 @@ const About = () => {
 
                 <p>
                   That idea continues to shape everything we do
-                  today—from the way our team communicates to
+                  today from the way our team communicates to
                   the way we design every patient's journey.
                 </p>
               </motion.div>
@@ -466,7 +466,7 @@ const About = () => {
 
                 <p>
                   We use modern dental technology where it
-                  genuinely improves the patient experience—
+                  genuinely improves the patient experience 
                   helping our clinicians plan more precisely,
                   communicate more clearly and deliver care
                   with confidence.

@@ -91,11 +91,7 @@ const Testimonials = () => {
           }}
           transition={{ duration: 0.8 }}
         >
-          <div className="testimonials-label">
-            <span>05</span>
-            <i />
-            <p>TESTIMONIALS</p>
-          </div>
+         
 
           <div className="testimonials-heading">
             <h2>
@@ -125,10 +121,7 @@ const Testimonials = () => {
 
           <div className="testimonial-quote">
 
-            <Quote
-              className="quote-icon"
-              size={42}
-            />
+            
 
             <div className="testimonial-counter">
               <span>{current.id}</span>
@@ -160,10 +153,10 @@ const Testimonials = () => {
               >
 
                 <h3>
-                  “{current.quote}”
+                  {current.quote}
                 </h3>
 
-                <p>
+                <p style={{fontSize:"12px"}}>
                   {current.text}
                 </p>
 
