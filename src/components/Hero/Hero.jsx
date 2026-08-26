@@ -5,6 +5,7 @@ import {
 } from "lucide-react";
 
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -164,10 +165,10 @@ const Hero = () => {
 
             {/* PRIMARY CTA */}
 
-            <a
-              href="#appointment"
-              className="dental-main-button"
-            >
+            <Link
+  to="/appointment"
+  className="dental-main-button"
+>
               <span>
                 Book an Appointment
               </span>
@@ -175,7 +176,7 @@ const Hero = () => {
               <span className="dental-main-button-icon">
                 <ArrowUpRight size={16} />
               </span>
-            </a>
+            </Link>
 
 
             {/* SECONDARY CTA */}
