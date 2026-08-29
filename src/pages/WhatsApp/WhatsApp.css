@@ -631,7 +631,7 @@
   align-items: center;
   gap: 25px;
 
-  padding: 38px;
+  padding: 28px;
 
   border-radius: 20px;
 
@@ -719,7 +719,7 @@
 ===================================================== */
 
 .whatsapp-cta {
-  padding: 30px 0;
+  padding: 20px 0;
 
   color: #f6f1ea;
 
@@ -837,7 +837,7 @@
 
     gap: 35px;
 
-    padding: 45px 0 35px;
+    padding: 25px 0 35px;
   }
 
   .whatsapp-hero-content h1 {
@@ -867,7 +867,7 @@
   .whatsapp-intro,
   .whatsapp-options,
   .whatsapp-process {
-    padding: 90px 0;
+    padding: 30px 0;
   }
 
   .whatsapp-intro h2,
@@ -896,7 +896,7 @@
 
 
   .whatsapp-contact {
-    padding: 65px 0;
+    padding: 25px 0;
   }
 
   .whatsapp-contact-inner {
@@ -913,7 +913,7 @@
 
 
   .whatsapp-cta {
-    padding: 90px 0;
+    padding: 30px 0;
   }
 
   .whatsapp-cta-inner {

@@ -66,7 +66,7 @@
 .services-hero {
   min-height: 100vh;
 
-  padding: 35px 0 45px;
+  padding: 35px 0 25px;
 
   background: #f6f1ea;
 }
@@ -1123,7 +1123,7 @@
 
     gap: 35px;
 
-    padding: 45px 0 35px;
+    padding: 25px 0 25px;
   }
 
   .services-hero-content h1 {
@@ -1152,7 +1152,7 @@
   .services-planning,
   .services-journey,
   .services-trust {
-    padding: 90px 0;
+    padding: 20px 0;
   }
 
   .services-heading-center h2,
@@ -1178,6 +1178,7 @@
   }
 
   .services-treatment-header > p {
+    justify-self: normal;
     margin-top: 25px;
   }
 
@@ -1239,7 +1240,7 @@
   /* CTA */
 
   .services-cta {
-    padding: 85px 0;
+    padding: 25px 0;
   }
 
   .services-cta-inner {

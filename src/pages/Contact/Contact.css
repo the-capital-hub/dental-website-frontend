@@ -52,7 +52,7 @@
 
 .contact-hero {
   min-height: 100vh;
-  padding: 145px 0 45px;
+  padding: 35px 0 25px;
 
   background: #f6f1ea;
 }
@@ -66,7 +66,7 @@
 
   gap: 75px;
 
-  padding: 55px 0 45px;
+  padding: 25px 0 25px;
 }
 
 .contact-hero-content {
@@ -247,7 +247,7 @@
 ===================================================== */
 
 .contact-booking {
-  padding: 145px 0;
+  padding: 35px 0;
 
   background: #eee7de;
 }
@@ -449,7 +449,7 @@
 .contact-success {
   margin-top: 38px;
 
-  padding: 45px 30px;
+  padding: 25px 30px;
 
   border: 1px solid rgba(55,88,68,.13);
 
@@ -666,7 +666,7 @@
 ===================================================== */
 
 .contact-process {
-  padding: 145px 0;
+  padding: 25px 0;
 
   background: #f6f1ea;
 }
@@ -776,7 +776,7 @@
 ===================================================== */
 
 .contact-emergency {
-  padding: 70px 0;
+  padding: 20px 0;
 
   background: #eee7de;
 }
@@ -885,7 +885,7 @@
 ===================================================== */
 
 .contact-final {
-  padding: 125px 0;
+  padding: 25px 0;
 
   background: #c86836;
 
@@ -997,7 +997,7 @@
   .contact-hero {
     min-height: auto;
 
-    padding: 105px 0 30px;
+    padding: 25px 0 30px;
   }
 
   .contact-hero-grid {
@@ -1007,7 +1007,7 @@
 
     gap: 35px;
 
-    padding: 45px 0 35px;
+    padding: 25px 0 35px;
   }
 
   .contact-hero-content h1 {
@@ -1030,7 +1030,7 @@
 
   .contact-booking,
   .contact-process {
-    padding: 90px 0;
+    padding: 20px 0;
   }
 
   .contact-booking-grid {
@@ -1064,7 +1064,7 @@
 
 
   .contact-emergency {
-    padding: 45px 0;
+    padding: 25px 0;
   }
 
   .contact-emergency-inner {
@@ -1079,7 +1079,7 @@
 
 
   .contact-final {
-    padding: 90px 0;
+    padding: 20px 0;
   }
 
   .contact-final-inner h2 {
