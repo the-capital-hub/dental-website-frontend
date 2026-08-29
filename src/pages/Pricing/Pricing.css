@@ -876,6 +876,10 @@
 ===================================================== */
 
 @media (max-width: 700px) {
+  .pricing-intro p {
+    margin: 28px 0 0;
+  }
+
 
   .pricing-container {
     width: calc(100% - 36px);
