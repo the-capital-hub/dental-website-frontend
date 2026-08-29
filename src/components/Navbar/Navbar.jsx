@@ -1,17 +1,21 @@
+
 import {
   ArrowUpRight,
   Menu,
   X,
 } from "lucide-react";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
   motion,
   AnimatePresence,
 } from "framer-motion";
 
-import { Link } from "react-router-dom";
+import {
+  Link,
+  useLocation,
+} from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -37,7 +41,6 @@ const navLinks = [
     name: "Our Dentists",
     href: "/doctors",
   },
-  
   {
     name: "Testimonials",
     href: "/patient-testimonials",
@@ -46,7 +49,6 @@ const navLinks = [
     name: "Pricing",
     href: "/pricing",
   },
-  
   {
     name: "WhatsApp",
     href: "/whatsapp",
@@ -59,15 +61,60 @@ const navLinks = [
 ===================================================== */
 
 const Navbar = () => {
+
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const location = useLocation();
 
 
   /* ===================================================
-     CLOSE MOBILE MENU
+     CLOSE MENU
   =================================================== */
 
   const closeMenu = () => {
     setMenuOpen(false);
+  };
+
+
+  /* ===================================================
+     CLOSE MENU ON ROUTE CHANGE
+  =================================================== */
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
+
+
+  /* ===================================================
+     PREVENT BODY SCROLL WHEN MENU IS OPEN
+  =================================================== */
+
+  useEffect(() => {
+
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+
+  }, [menuOpen]);
+
+
+  /* ===================================================
+     ACTIVE LINK
+  =================================================== */
+
+  const isActive = (href) => {
+
+    if (href === "/") {
+      return location.pathname === "/";
+    }
+
+    return location.pathname.startsWith(href);
   };
 
 
@@ -120,7 +167,11 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.href}
-              className="navbar-link"
+              className={`navbar-link ${
+                isActive(link.href)
+                  ? "active"
+                  : ""
+              }`}
             >
               {link.name}
             </Link>
@@ -131,39 +182,35 @@ const Navbar = () => {
 
 
         {/* =================================================
-            DASHBOARD
+            DESKTOP ACTIONS
         ================================================= */}
 
-        <Link
-          to="/admin/dashboard"
-          className="navbar-admin"
-        >
+        <div className="navbar-actions">
 
-          <span>
+          <Link
+            to="/admin/dashboard"
+            className="navbar-admin"
+          >
             Dashboard
-          </span>
-
-        </Link>
+          </Link>
 
 
-        {/* =================================================
-            APPOINTMENT CTA
-        ================================================= */}
+          <Link
+            to="/appointment"
+            className="navbar-cta"
+          >
 
-        <Link
-          to="/appointment"
-          className="navbar-cta"
-        >
+            <span>
+              Book Appointment
+            </span>
 
-          <span>
-            Book Appointment
-          </span>
+            <span className="navbar-cta-arrow">
+              <ArrowUpRight size={15} />
+            </span>
 
-          <span className="navbar-cta-arrow">
-            <ArrowUpRight size={15} />
-          </span>
+          </Link>
 
-        </Link>
+        </div>
 
 
         {/* =================================================
@@ -172,25 +219,66 @@ const Navbar = () => {
 
         <button
           type="button"
-          className="navbar-menu-button"
+          className={`navbar-menu-button ${
+            menuOpen ? "open" : ""
+          }`}
           onClick={() =>
             setMenuOpen(
               (previous) => !previous
             )
           }
-          aria-label="Toggle navigation"
+          aria-label={
+            menuOpen
+              ? "Close navigation"
+              : "Open navigation"
+          }
           aria-expanded={menuOpen}
         >
 
           {menuOpen ? (
-            <X size={21} />
+            <X size={20} />
           ) : (
-            <Menu size={21} />
+            <Menu size={20} />
           )}
 
         </button>
 
       </header>
+
+
+      {/* =================================================
+          MOBILE BACKDROP
+      ================================================= */}
+
+      <AnimatePresence>
+
+        {menuOpen && (
+
+          <motion.div
+            className="mobile-backdrop"
+
+            initial={{
+              opacity: 0,
+            }}
+
+            animate={{
+              opacity: 1,
+            }}
+
+            exit={{
+              opacity: 0,
+            }}
+
+            transition={{
+              duration: 0.2,
+            }}
+
+            onClick={closeMenu}
+          />
+
+        )}
+
+      </AnimatePresence>
 
 
       {/* =================================================
@@ -206,21 +294,24 @@ const Navbar = () => {
 
             initial={{
               opacity: 0,
-              y: -20,
+              y: -15,
+              scale: 0.98,
             }}
 
             animate={{
               opacity: 1,
               y: 0,
+              scale: 1,
             }}
 
             exit={{
               opacity: 0,
-              y: -20,
+              y: -15,
+              scale: 0.98,
             }}
 
             transition={{
-              duration: 0.3,
+              duration: 0.25,
               ease: "easeOut",
             }}
           >
@@ -229,88 +320,68 @@ const Navbar = () => {
 
 
               {/* =========================================
-                  PUBLIC LINKS
+                  MOBILE LINKS
               ========================================= */}
 
-              {navLinks.map(
-                (link, index) => (
+              <nav className="mobile-navigation">
 
-                  <motion.div
-                    key={link.name}
+                {navLinks.map(
+                  (link, index) => (
 
-                    initial={{
-                      opacity: 0,
-                      x: -20,
-                    }}
+                    <motion.div
+                      key={link.name}
 
-                    animate={{
-                      opacity: 1,
-                      x: 0,
-                    }}
+                      initial={{
+                        opacity: 0,
+                        x: -12,
+                      }}
 
-                    transition={{
-                      delay: index * 0.045,
-                      duration: 0.25,
-                    }}
-                  >
+                      animate={{
+                        opacity: 1,
+                        x: 0,
+                      }}
 
-                    <Link
-                      to={link.href}
-                      className="mobile-nav-link"
-                      onClick={closeMenu}
+                      transition={{
+                        delay: index * 0.035,
+                        duration: 0.22,
+                      }}
                     >
 
-                      <span className="mobile-nav-number">
+                      <Link
+                        to={link.href}
+                        className={`mobile-nav-link ${
+                          isActive(link.href)
+                            ? "active"
+                            : ""
+                        }`}
+                        onClick={closeMenu}
+                      >
 
-                        {String(
-                          index + 1
-                        ).padStart(
-                          2,
-                          "0"
-                        )}
+                        <span className="mobile-nav-number">
+                          {String(index + 1).padStart(2, "0")}
+                        </span>
 
-                      </span>
+                        <strong>
+                          {link.name}
+                        </strong>
 
+                        <ArrowUpRight size={17} />
 
-                      <strong>
-                        {link.name}
-                      </strong>
+                      </Link>
 
+                    </motion.div>
 
-                      <ArrowUpRight
-                        size={16}
-                      />
+                  )
+                )}
 
-                    </Link>
-
-                  </motion.div>
-
-                )
-              )}
+              </nav>
 
 
               {/* =========================================
-                  DASHBOARD
+                  MOBILE ACTIONS
               ========================================= */}
 
-              <motion.div
-
-                initial={{
-                  opacity: 0,
-                  x: -20,
-                }}
-
-                animate={{
-                  opacity: 1,
-                  x: 0,
-                }}
-
-                transition={{
-                  delay:
-                    navLinks.length * 0.045,
-                  duration: 0.25,
-                }}
-              >
+              <div className="mobile-actions">
 
                 <Link
                   to="/admin/dashboard"
@@ -318,55 +389,14 @@ const Navbar = () => {
                   onClick={closeMenu}
                 >
 
-                  <span className="mobile-nav-number">
-
-                    {String(
-                      navLinks.length + 1
-                    ).padStart(
-                      2,
-                      "0"
-                    )}
-
+                  <span>
+                    Dashboard
                   </span>
 
-
-                  <strong>
-                    Dashboard
-                  </strong>
-
-
-                  <ArrowUpRight
-                    size={16}
-                  />
+                  <ArrowUpRight size={16} />
 
                 </Link>
 
-              </motion.div>
-
-
-              {/* =========================================
-                  APPOINTMENT CTA
-              ========================================= */}
-
-              <motion.div
-
-                initial={{
-                  opacity: 0,
-                  y: 10,
-                }}
-
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                }}
-
-                transition={{
-                  delay:
-                    (navLinks.length + 1) *
-                    0.045,
-                  duration: 0.25,
-                }}
-              >
 
                 <Link
                   to="/appointment"
@@ -378,14 +408,13 @@ const Navbar = () => {
                     Book an Appointment
                   </span>
 
-
-                  <ArrowUpRight
-                    size={17}
-                  />
+                  <span className="mobile-cta-arrow">
+                    <ArrowUpRight size={17} />
+                  </span>
 
                 </Link>
 
-              </motion.div>
+              </div>
 
             </div>
 
@@ -401,3 +430,4 @@ const Navbar = () => {
 
 
 export default Navbar;
+```
